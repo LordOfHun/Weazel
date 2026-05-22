@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Weazel Mode</name>
+    <author>WhereWolf</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <description>
+        인공적으로 복제된 창조물로 위젤은 원래 존재하지 않았던 종족입니다.
+        이들 대부분은 호전적인데, 이는 복제된 원본 개체의 성격을 그대로 따르기 때문입니다.
+        이 종족은 유전적으로 모두 암컷이며, 평균 120cm의 아주 교활하고 재빠른 종족입니다.
+        위젤 대부분은 약탈, 습격 등 여러 범죄에 쉽게 타락하며 이는 종족 자체의 본능과도 같습니다.
+        이런 성격은 암컷만으로 구성된 위젤의 종족 번식에도 드러납니다.
+        위젤 대부분은 복제가 아닌 유전자 풀의 다양성을 원하기에 이들은 다른 종족의 남성들을 납치하여 유전자를 얻는 방식으로 번식합니다.
+    </description>
+</ModMetaData>

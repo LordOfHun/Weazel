@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Name="BaseWeazelGun" Abstract="True" ParentName="BaseWeapon">
+        <techLevel>Industrial</techLevel>
+        <smeltable>true</smeltable>
+        <relicChance>1</relicChance>
+        <thingCategories>
+        <li>WeaponsRanged</li>
+        </thingCategories>
+        <weaponClasses>
+        <li>Ranged</li>
+        </weaponClasses>
+        <inspectorTabs>
+        <li>ITab_Art</li>
+        </inspectorTabs>
+        <statBases>
+        <Flammability>0.5</Flammability>
+        </statBases>
+        <comps>
+        <li Class="CompProperties_Art">
+            <nameMaker>NamerArtWeaponGun</nameMaker>
+            <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+            <minQualityForArtistic>Excellent</minQualityForArtistic>
+        </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="BaseWeazelGunWithQuality" Abstract="True" ParentName="BaseWeazelGun">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="BaseWeazelMakeableGun" ParentName="BaseWeazelGunWithQuality" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef Name="BaseWeazelKindMakeableGun" ParentName="BaseWeazelMakeableGun" Abstract="True">
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>WeazelColloidArm</defName>
+        <label>colloid arm</label>
+        <labelNoun>an colloid arm</labelNoun>
+        <description>위젤의 기술로 형성해낸 젤 형태의 주먹입니다.</description>
+        <descriptionHyperlinks>
+            <ThingDef>WeazelColloidArm</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+        <li Class="HediffCompProperties_VerbGiver">
+            <tools>
+                <li>
+                    <label>fist</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>5</power>
+                    <cooldownTime>2</cooldownTime>
+                </li>
+            </tools>
+        </li>
+        </comps>
+        <spawnThingOnRemoved>WeazelColloidArm</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1.50</partEfficiency>
+            <betterThanNatural>false</betterThanNatural>
+        </addedPartProps>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MiningSpeed>-0.4</MiningSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <ThingDef ParentName="BodyPartArchotechBase">
+        <defName>WeazelColloidArm</defName>
+        <label>colloid arm</label>
+        <description>위젤의 기술로 형성해낸 젤 형태의 팔입니다.</description>
+        <descriptionHyperlinks>
+            <RecipeDef>InstallColloidArm</RecipeDef>
+        </descriptionHyperlinks>
+        <statBases>
+            <MarketValue>2800</MarketValue>
+            <Mass>3</Mass>
+        </statBases>
+        <!--
+        <thingSetMakerTags>
+            <li>RewardStandardCore</li>
+        </thingSetMakerTags>
+        -->
+    </ThingDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>InstallColloidArm</defName>
+        <label>Install Colloid Arm</label>
+        <description>콜로이드 암을 신체에 결합합니다.</description>
+        <descriptionHyperlinks>
+            <ThingDef>WeazelColloidArm</ThingDef>
+            <HediffDef>WeazelColloidArm</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>Installing colloid arm.</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>WeazelColloidArm</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>WeazelColloidArm</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Shoulder</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>WeazelColloidArm</addsHediff>
+    </RecipeDef>
+</Defs>

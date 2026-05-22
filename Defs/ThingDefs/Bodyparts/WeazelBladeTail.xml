@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BodyPartBionicBase">
+		<defName>Weazel_BladeTail</defName>
+		<label>위젤 칼날 꼬리</label>
+		<description>흔해빠진 꼬리보다 좋은것은 칼날이 달린 꼬리입니다. 특별하고, 멋지며, 마음에 안드는 녀석을 죽여버릴때도 쓸만합니다.</description>
+		<techLevel>Spacer</techLevel>
+		<costList> 
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Weazel_BladeTail</defName>
+        <label>위젤 칼날 꼬리</label>
+        <labelNoun>위젤 칼날 꼬리</labelNoun>
+        <description>흔해빠진 꼬리보다 좋은것은 칼날이 달린 꼬리입니다. 특별하고, 멋지며, 마음에 안드는 녀석을 죽여버릴때도 쓸만합니다.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Weazel_BladeTail</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="HediffCompProperties_VerbGiver">
+                <tools>
+                    <li>
+                        <label>blade</label>
+                        <capacities>
+                            <li>Cut</li>
+                        </capacities>
+                        <power>18</power>
+                        <cooldownTime>2</cooldownTime>
+                        <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                        <soundMeleeHit>MeleeHit_BionicSlash</soundMeleeHit>
+                        <soundMeleeMiss>MeleeMiss_BionicSlash</soundMeleeMiss>
+                    </li>
+                </tools>
+            </li>
+        </comps>
+        <spawnThingOnRemoved>Weazel_BladeTail</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1.00</partEfficiency>
+            <betterThanNatural>false</betterThanNatural>
+        </addedPartProps>
+        <stages>
+        </stages>
+    </HediffDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>InstallWeazelBladeTail</defName>
+        <label>위젤 칼날 꼬리 이식</label>
+        <description>위젤 칼날 꼬리를 신체에 결합합니다.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Weazel_BladeTail</ThingDef>
+            <HediffDef>Weazel_BladeTail</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>위젤 칼날 꼬리 이식중...</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Weazel_BladeTail</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Weazel_BladeTail</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Weazel_Tail</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Weazel_BladeTail</addsHediff>
+    </RecipeDef>
+</Defs>

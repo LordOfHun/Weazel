@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>Make_EssentialSilk</defName>
+        <label>에센스 방직</label>
+        <description>에센스를 이용해서 에센스 실크를 방직합니다.</description>
+        <jobString>에센스 실크 방직중...</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Tailor</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>300</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Weazel_Essence</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Weazel_Essence</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Weazel_EssentialSilk>30</Weazel_EssentialSilk>
+        </products>
+        <workSkill>Crafting</workSkill>
+        <displayPriority>2000</displayPriority>
+        <recipeUsers>
+            <li>WeazelEssenceWeaver</li>
+        </recipeUsers>
+    </RecipeDef>
+</Defs>

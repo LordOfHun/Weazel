@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BodyPartBionicBase">
+		<defName>Weazel_BionicTail</defName>
+		<label>생체공학 위젤 꼬리</label>
+		<description>겉보기에는 티가 나지않는 위젤의 꼬리입니다. 사용자의 보행을 보정하여 이동을 보조하는 효과가 있습니다.</description>
+		<techLevel>Spacer</techLevel>
+		<costList> 
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>4</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>Weazel_BionicTail</defName>
+        <label>생체공학 위젤 꼬리</label>
+        <labelNoun>생체공학 위젤 꼬리</labelNoun>
+        <description>겉보기에는 티가 나지않는 위젤의 꼬리입니다. 사용자의 보행을 보정하여 이동을 보조하는 효과가 있습니다.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Weazel_BionicTail</ThingDef>
+        </descriptionHyperlinks>
+        <spawnThingOnRemoved>Weazel_BionicTail</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1.00</partEfficiency>
+            <betterThanNatural>false</betterThanNatural>
+        </addedPartProps>
+        <stages>
+        </stages>
+    </HediffDef>
+
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>InstallWeazelBionicTail</defName>
+        <label>생체공학 위젤 꼬리 이식</label>
+        <description>생체공학 위젤 꼬리를 신체에 결합합니다.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Weazel_BionicTail</ThingDef>
+            <HediffDef>Weazel_BionicTail</HediffDef>
+        </descriptionHyperlinks>
+        <jobString>생체공학 위젤 꼬리 이식중...</jobString>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Weazel_BionicTail</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Weazel_BionicTail</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Weazel_Tail</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Weazel_BionicTail</addsHediff>
+    </RecipeDef>
+</Defs>

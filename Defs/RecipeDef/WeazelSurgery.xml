@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <JobDef>
+        <defName>EssenceExtract</defName>
+        <driverClass>WeazelEssenceFarm.JobDriver_EssenceExtract</driverClass>
+        <reportString>에센스 추출하는 중...</reportString> 
+    </JobDef>
+
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>ExtractEssenceRecipe</defName>
+        <label>에센스 추출</label>
+        <description>대상에게서 에센스를 추출합니다.</description>
+        <workerClass>AddWeazelSurgern.Recipe_ExtractEssence</workerClass>
+        <jobString>에센스 추출 중.</jobString>
+        <workAmount>500</workAmount>
+        <hideBodyPartNames>true</hideBodyPartNames>
+        <targetsBodyPart>false</targetsBodyPart>
+        <isViolation>true</isViolation>
+        <descriptionHyperlinks>
+            <ThingDef>Weazel_Essence</ThingDef>
+        </descriptionHyperlinks>
+        <uiIconThing>Weazel_Essence</uiIconThing>
+        <anesthetize>false</anesthetize>
+        <workSkillLearnFactor>2</workSkillLearnFactor>
+        <recipeUsers>
+            <li>Human</li>
+        </recipeUsers>
+    </RecipeDef>
+</Defs>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+    <ThingDef ParentName="ResourceBase">
+        <defName>Weazel_Essence</defName>
+        <label>에센스</label>
+        <description>인간을 포함한 여러 종족에게서 뽑아낸 특수 유전 물질입니다. 모든 위젤 공학에 가장 기초적인 자원으로 없어서는 안될 물질입니다.\n\n에센스는 위젤이 발견한 특수한 유전 물질입니다. 특히, 수컷에게서 많이 추출할 수 있는 이 물질은 무한한 가능성을 가지기에 위젤 사회에서 없어서는 안되는 중요한 물질입니다. 에센스를 어떻게 가공하냐에 따라서 직물, 인공 근육, 약물은 물론이며 유흥에까지 사용될 수 있습니다. 에센스는 위젤의 문화와도 같으며 위젤이 약탈 종족으로 거듭나게된 그들 삶의 원동력입니다.\n에센스는 인간과 같은 문명 종족 외에도 다른 생물에게서도 이론 상 추출이 가능하지만 위젤 사회에서도 이는 금기처럼 여겨질 정도로 선을 넘는 행위로 간주되기에 제정신이 아닌 이상 시도조차 하지않습니다.</description>
+        <graphicData>
+            <texPath>Things/Resource/Essence</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>26</MaxHitPoints>
+            <MarketValue>10</MarketValue>
+            <Mass>0.005</Mass>
+            <Flammability>0.7</Flammability>
+            <DeteriorationRate>2.0</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Weazel_Purified_Essence</defName>
+        <label>정제된 에센스</label>
+        <description>불순물 제거 및 분리 과정을 거쳐 순수해진 상태의 에센스입니다.</description>
+        <graphicData>
+            <texPath>Things/Resource/EssentialSilk</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>1000</MarketValue>
+            <Mass>0.005</Mass>
+            <Flammability>0.7</Flammability>
+            <DeteriorationRate>2.0</DeteriorationRate>
+        </statBases>
+        <intricate>true</intricate>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Weazel_EssentialSilk</defName>
+        <label>에센스 실크</label>
+        <description>에센스를 실처럼 늘려 짜낸 직물입니다. 위젤 의류 재료에 쓰입니다.\n\n에센스를 실처럼 늘려 그것으로 짜낸 직물입니다. 실크처럼 부드러운 질감과 신축성은 피부의 질감과 유사합니다.원료가 되는 에센스 실은 방직 과정에서 끈적한 액체를 미세하고 수많은 바늘 형태를 한 기계 장치를 이용해 원심력으로 미세한 실의 형태를 만들어 그것을 새끼줄을 꼬으듯이 하나로 엮게끔 설계되어있습니다. 이는 거미줄의 원리와 유사하기에 방탄 효과를 기대할 수 있으며 체온을 보호할 수 있는 에센스 특유의 성질 덕분에 가공 방식에 따라 체온을 유지할 수 있는 기능성까지 보장합니다.</description>
+        <graphicData>
+            <texPath>Things/Resource/EssentialSilk</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>1000</MarketValue>
+            <Mass>0.005</Mass>
+            <Flammability>0.7</Flammability>
+            <DeteriorationRate>2.0</DeteriorationRate>
+        </statBases>
+        <intricate>true</intricate>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Weazel_GAM</defName>
+        <label>G.A.M</label>
+        <description>위젤 파워아머 제작에 반드시 필요한 인공근육입니다. 실온 상태에서 부패가 손상을 입기 때문에 반드시 0도 이하의 영하 온도에서 보관해야합니다./n/nGenetic Amplified Muscle(G.A.M)은 에센스를 이용해 배양해낸 인공근육입니다. G.A.M은 에센스나 강화제를 연료로 반응하며 주로 파워아머 제작에 사용됩니다. 생물의 근육을 완벽하게 재현해낸 GAM은 섬세한 수축과 이완을 재현해낼 수 있는 다발 형태의 인공 근육이며 이 다발 형태를 응용해 다양한 근육형태을 재현해낼 수 있습니다. 또한 강한 신축성과 내구성 덕분에 파워 아머에 사용되어 착용자가 괴력을 낼 수 있게 만들 수 있어 파워아머의 주재료입니다./n배양을 시작하는 순간 양산하기 쉽다는 장점 덕분에 클론 종족인 위젤에게 가장 어울리는 물질입니다. G.A.M은 충분한 에너지원이 없다면 부패가 진행되기 때문에 활동을 정지하고 신선도를 유지하기 위해 냉동 상태에서 보관되어야만합니다.</description>
+        <graphicData>
+            <texPath>Things/Resource/GAM</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>1000</MarketValue>
+            <Mass>0.005</Mass>
+            <Flammability>0.7</Flammability>
+            <DeteriorationRate>2.0</DeteriorationRate>
+        </statBases>
+        <intricate>true</intricate>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+    </ThingDef>
+</Defs>

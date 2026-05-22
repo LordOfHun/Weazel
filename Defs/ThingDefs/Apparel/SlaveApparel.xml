@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="ApparelMakeableBase" MayRequire="Ludeon.RimWorld.Ideology">
+        <defName>Weazel_Slavesuit</defName>
+        <label>위젤 에센스 노예복</label>
+        <description>위젤의 노하우로 제작된 특수 노예복입니다.\n노예의 노동력에 영향력을 주지않는 선에서 최대의 에센스를 자동으로 추출해냅니다.</description>
+        <graphicData>
+            <texPath>Weazellike/Apparel/W_Slaveoutfit/Wslaveoutfit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <researchPrerequisite>WeazelWeazelSlavesuit</researchPrerequisite>
+        </recipeMaker>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>60</costStuffCount>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>1600</WorkToMake>
+            <Mass>0.75</Mass>
+            <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset>0.15</SlaveSuppressionOffset>
+            <WorkSpeedGlobal>0.15</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Weazellike/Apparel/W_Slaveoutfit/Wslaveoutfit</wornGraphicPath>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>Slave</li>
+            </defaultOutfitTags>
+            <tags>
+                <li>Weazel_Slave</li>
+            </tags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_StandardApparel"/>
+        <comps>
+            <li Class="CompProperties_CauseHediff_Apparel">
+                <hediff>Weazel_Slavesuit</hediff>
+                <part>Torso</part>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <HediffDef>
+        <defName>Weazel_Slavesuit</defName>
+        <label>에센스 추출</label>
+        <description>신체에 부담이 가지않는 선에서 지속적인 에센스 추출을 당하고있습니다.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <stages>
+
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_RemoveIfApparelDropped" />
+            <li Class="WeazelDrop.HediffCompProperties_DropItem">
+                <tickInterval>60000</tickInterval> <!-- 약 1시간 -->
+                <thingDef>Weazel_Essence</thingDef> <!-- 떨어뜨릴 아이템 -->
+                <count>15</count>
+            </li>
+        </comps>
+        <isBad>false</isBad>
+    </HediffDef>
+</Defs>

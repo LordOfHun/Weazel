@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <AlienRace.RaceSettings>
+    <defName>Weazel_Race_Setting</defName>
+    
+    <pawnKindSettings>
+      
+      <startingColonists>
+        <li>
+          <pawnKindEntries> <li>
+              <kindDefs>
+                <li>Weazel_Colonist</li>
+              </kindDefs>
+              <chance>10.0</chance>
+            </li>
+          </pawnKindEntries>
+          <factionDefs>
+            <li>Weazel_PlayerFaction</li>
+          </factionDefs>
+        </li>
+      </startingColonists>
+
+      <alienslavekinds>
+        <li>
+          <kindDefs>
+            <li>Weazel_Colonist</li>
+          </kindDefs>
+          <chance>40.0</chance>
+        </li>
+      </alienslavekinds>
+
+    </pawnKindSettings>
+  </AlienRace.RaceSettings>
+</Defs>

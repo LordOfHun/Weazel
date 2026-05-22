@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ApparelLayerDef>
+        <defName>WeazelCape</defName>
+        <label>Cape</label>
+    </ApparelLayerDef>
+
+    <ApparelLayerDef>
+        <defName>WeazelNeck</defName>
+        <label>Neck</label>
+    </ApparelLayerDef>
+</Defs>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>WeazelGAMIncubation</defName>
+        <label>G.A.M Incubation</label>
+        <description>에센스를 소모하여 인공근육을 제작가능한 구조물입니다.</description>
+        <researchPrerequisites><li>WeazelGAMIncubation</li></researchPrerequisites>
+        <graphicData>
+            <texPath>Things/Building/GAM_Incubation/GAM_Incubation</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.8,3.8)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <size>(3,3)</size>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <designationCategory>Production</designationCategory>
+        <designationHotKey>Misc6</designationHotKey>
+        <rotatable>true</rotatable>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <uiIconScale>0.85</uiIconScale>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+        </building>
+        <thingCategories>
+            <li>BuildingsProduction</li>
+        </thingCategories>
+        <costList>
+            <Steel>340</Steel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+        </costList>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <canOverlapZones>false</canOverlapZones>
+        <blockWind>true</blockWind>
+        <fillPercent>0.5</fillPercent>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <WorkToBuild>15000</WorkToBuild>
+            <Flammability>0.15</Flammability>
+            <Beauty>0</Beauty>
+            <Mass>3500</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>15</fuelConsumptionRate>
+                <fuelCapacity>60</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Weazel_Essence</li>
+                    </thingDefs>
+                </fuelFilter>
+                <initialFuelPercent>1</initialFuelPercent>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>120</basePowerConsumption>
+            </li>
+            <li Class="FuPoSpa.CompProperties_FuelPoweredSpawner">
+                <thingToSpawn>Weazel_GAM</thingToSpawn>
+                <requiresFuel>true</requiresFuel>
+                <requiresPower>true</requiresPower>
+                <spawnCount>45</spawnCount>
+                <spawnIntervalRange>240000</spawnIntervalRange>
+                <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+                <spawnMaxAdjacent>7</spawnMaxAdjacent>
+                <spawnForbidden>false</spawnForbidden>
+                <saveKeysPrefix>Essence_GAM</saveKeysPrefix>
+            </li>
+        </comps>
+        <tickerType>Normal</tickerType>
+    </ThingDef>
+
+
+</Defs>

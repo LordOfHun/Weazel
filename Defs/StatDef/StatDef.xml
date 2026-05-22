@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <StatDef>
+    <defName>Weazel_MassCarryCapacity</defName>
+    <label>추가 운반 중량</label>
+    <description>이 장비를 착용함으로써 추가로 들 수 있는 무게(kg)입니다.</description>
+    <category>PawnMisc</category>
+    <defaultBaseValue>0</defaultBaseValue>
+    <hideAtValue>0</hideAtValue> <toStringStyle>FloatMaxTwo</toStringStyle>
+    <formatString>{0} kg</formatString>
+    <showOnAnimals>false</showOnAnimals>
+    <displayPriorityInCategory>100</displayPriorityInCategory>
+    <workerClass>StatWorker</workerClass>
+  </StatDef>
+</Defs>

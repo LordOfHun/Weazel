@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HairDef>
+        <defName>Weazelhair1</defName>
+        <label>Weazel_A</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair1</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+
+    <HairDef>
+        <defName>Weazelhair2</defName>
+        <label>Weazel_B</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair2</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+
+    <HairDef>
+        <defName>Weazelhair3</defName>
+        <label>Weazel_C</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair3</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+
+    <HairDef>
+        <defName>Weazelhair4</defName>
+        <label>Weazel_D</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair4</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+
+    <HairDef>
+        <defName>Weazelhair5</defName>
+        <label>Weazel_E</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair5</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+
+    <HairDef>
+        <defName>Weazelhair6</defName>
+        <label>Weazel_F</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair6</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+    
+    <HairDef>
+        <defName>Weazelhair7</defName>
+        <label>Weazel_G</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair7</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+    
+    <HairDef>
+        <defName>Weazelhair8</defName>
+        <label>Weazel_H</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair8</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+    
+    <HairDef>
+        <defName>Weazelhair9</defName>
+        <label>Weazel_I</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair9</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+    
+    <HairDef>
+        <defName>Weazelhair10</defName>
+        <label>Weazel_J</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair10</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+    
+    <HairDef>
+        <defName>Weazelhair11</defName>
+        <label>Weazel_K</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair11</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+    
+    <HairDef>
+        <defName>Weazelhair12</defName>
+        <label>Weazel_L</label>
+        <styleGender>Female</styleGender>
+        <texPath>Weazellike/Hairs/Weazelhair12</texPath>
+        <category>Weazelhair</category>
+        <styleTags>
+            <li>Weazelhair</li>
+        </styleTags>
+    </HairDef>
+</Defs>

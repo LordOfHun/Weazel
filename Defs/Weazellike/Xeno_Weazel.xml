@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XenotypeDef MayRequire="Ludeon.RimWorld.Biotech">
+        <defName MayRequire="Ludeon.Rimworld.Biotech">Xeno_Weazel</defName>
+        <label>위젤</label>
+        <description>족제비 클론 종족입니다. (긴설명 추가 예정)</description>
+        <descriptionShort>족제비 클론 종족입니다. (긴설명 추가 예정)</descriptionShort>
+        <iconPath>Icon/Weazel_icon</iconPath>
+        <inheritable>true</inheritable>
+        <displayPriority>1000</displayPriority>
+        <factionlessGenerationWeight>1.0</factionlessGenerationWeight>
+        <genes>
+            <li>Skin_SheerWhite</li>
+        </genes>
+    </XenotypeDef>
+</Defs>

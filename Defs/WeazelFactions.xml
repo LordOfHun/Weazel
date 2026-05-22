@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <FactionDef Abstract="True" Name="Weazel_PlayerFactionBase">
+        <settlementTexturePath>Icon/Weazel_icon</settlementTexturePath>
+        <colorSpectrum>
+            <li>(1,1,1)</li>
+        </colorSpectrum>
+    </FactionDef>
+
+    <FactionDef ParentName="Weazel_PlayerFactionBase">
+        <defName>Weazel_PlayerFaction</defName>
+        <label>New Beginning</label>
+        <description>당신의 위젤 정착지입니다.</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>Weazel_Colonist</basicMemberKind>
+        <pawnSingular>Weazel</pawnSingular>
+        <pawnsPlural>Weazel</pawnsPlural>
+        <techLevel>Industrial</techLevel>
+        <backstoryCategories>
+            <li>Offworld</li>
+        </backstoryCategories>
+        <factionIconPath>Icon/Weazel_icon</factionIconPath>
+        <settlementTexturePath>Icon/Weazel_Homeicon</settlementTexturePath>
+        <raidLootValueFromPointsCurve>
+            <points>
+                <li>(35,     15)</li>
+                <li>(100,   120)</li>
+                <li>(1000,  500)</li>
+                <li>(2000,  800)</li>
+                <li>(4000, 1000)</li>
+            </points>
+        </raidLootValueFromPointsCurve>
+        <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <melaninRange>0</melaninRange>
+        <startingResearchTags>
+            <li>ClassicStart</li>
+        </startingResearchTags>
+        <apparelStuffFilter>
+            <categories>
+                <li>Fabric</li>
+                <li>Leathery</li>
+            </categories>
+        </apparelStuffFilter>
+        <allowedCultures>
+            <li>Astropolitan</li>
+        </allowedCultures>
+    </FactionDef>
+
+    <!-- 위젤 베이스-->
+    <FactionDef ParentName="FactionBase" Name="WeazelFactionBase" Abstract="True">
+        <pawnSingular>Weazel</pawnSingular>
+        <pawnsPlural>Weazels</pawnsPlural>
+        <listOrderPriority>30</listOrderPriority>
+        <settlementGenerationWeight>1.5</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <canMakeRandomly>true</canMakeRandomly>
+        <!-- 수장의 직함 -->
+        <leaderTitle>XCC Boss</leaderTitle>
+        <factionIconPath>Icon/Weazel_icon</factionIconPath>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <melaninRange>0</melaninRange>
+        <techLevel>Spacer</techLevel>
+        <backstoryCategories>
+            <li>WeazelALL</li>
+		</backstoryCategories>
+        <caravanTraderKinds>
+            <li>Caravan_Weazel_SlaveMerchant</li>
+            <li>Caravan_Weazel_MercenaryMerchant</li>
+            <li>Caravan_Weazel_GeneMerchant</li>
+		</caravanTraderKinds>
+        <visitorTraderKinds>
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+        <baseTraderKinds>
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+        <allowedArrivalTemperatureRange>-90~45</allowedArrivalTemperatureRange>
+        <!--
+        <disallowedMemes MayRequire="Ludeon.RimWorld.Ideology">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">TreeConnection</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AnimalPersonhood</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Tunneler</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Bloodfeeding</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Ritualist</li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">Inhuman</li>
+		</disallowedMemes>
+        <forcedMemes>
+              <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+        </forcedMemes>
+    -->
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0, 90)</li>         <!-- 기본 90으로 상향 (Fieldarmy 미포함) -->
+                <li>(300, 80)</li>      <!-- 보병들 허용,유탄발사기(140)미포함 -->
+                <li>(1000, 80)</li>      <!-- 정규군(180) 미포함 캡 씌우기 -->
+                <li>(2300, 250)</li>     <!-- 여기서부터 정규군 포함 -->
+                <li>(3000, 600)</li>
+                <li>(100000, 10000)</li>
+            </points>
+	    </maxPawnCostPerTotalPointsCurve>
+
+        <pawnGroupMakers>
+            <!--정찰조-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>80</commonality>
+                <maxTotalPoints>100</maxTotalPoints>
+                <options>
+                    <Weazel_BulletSponge>1</Weazel_BulletSponge>
+                    <Weazel_Recruit>1</Weazel_Recruit>
+                </options>
+            </li>
+            <!--약탈분대 습격-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>60</commonality>
+                <maxTotalPoints>1000</maxTotalPoints>
+                <options>
+                    <Weazel_BulletSponge>1</Weazel_BulletSponge>
+                    <Weazel_Recruit>1</Weazel_Recruit>
+                    <Weazel_Core_Infantry>2</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>2</Weazel_Guidon_Bearer>
+                </options>
+            </li>
+            <!--약탈부대 습격-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>60</commonality>
+                <maxTotalPoints>1000</maxTotalPoints>
+                <options>
+                    <Weazel_Recruit>1</Weazel_Recruit>
+                    <Weazel_Core_Infantry>25</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>10</Weazel_Guidon_Bearer>
+                    <Weazel_Marksman>13</Weazel_Marksman>
+                </options>
+            </li>
+            <!--위젤 돌격 강습 습격-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>60</commonality>
+                <maxTotalPoints>1000</maxTotalPoints>
+                <options>
+                    <Weazel_Assault_Trooper>3</Weazel_Assault_Trooper>
+                    <Weazel_Assalut_Guidon>2</Weazel_Assalut_Guidon>
+                    <Weazel_Berserker>1</Weazel_Berserker>
+                </options>
+            </li>
+            <!--위젤 사보타지 습격-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>60</commonality>
+                <maxTotalPoints>1000</maxTotalPoints>
+                <options>
+                    <Weazel_BulletSponge>1</Weazel_BulletSponge>
+                    <Weazel_Recruit>1</Weazel_Recruit>
+                    <Weazel_Core_Infantry>10</Weazel_Core_Infantry>
+                    <Weazel_Trooper>4</Weazel_Trooper>
+                </options>
+            </li>
+            <!--더블팽 약탈팀-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>40</commonality>
+                <maxTotalPoints>2500</maxTotalPoints>
+                <options>
+                    <Weazel_Recruit>1</Weazel_Recruit>
+                    <Weazel_Core_Infantry>25</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>1</Weazel_Guidon_Bearer>
+                    <Weazel_Marksman>13</Weazel_Marksman>    
+                    <Weazel_Heavy>10</Weazel_Heavy>
+                </options>
+            </li>
+            <!--더블팽 화력지원팀-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>40</commonality>
+                <maxTotalPoints>2500</maxTotalPoints>
+                <options>
+                    <Weazel_Recruit>1</Weazel_Recruit>
+                    <Weazel_Core_Infantry>25</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>1</Weazel_Guidon_Bearer>
+                    <Weazel_Heavy>15</Weazel_Heavy>
+                    <Weazel_Veteran>10</Weazel_Veteran>
+                </options>
+            </li>
+            <!--어썰트 학살팀-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>35</commonality>
+                <maxTotalPoints>2500</maxTotalPoints>
+                <options>
+                    <Weazel_BulletSponge>25</Weazel_BulletSponge>
+                    <Weazel_Assalut_Guidon>20</Weazel_Assalut_Guidon>
+                    <Weazel_Berserker>15</Weazel_Berserker>
+                    <Weazel_Trooper>10</Weazel_Trooper>
+                </options>
+            </li>
+            <!--더블팽 핵심지점 말살팀-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>35</commonality>
+                <maxTotalPoints>4000</maxTotalPoints>
+                <options>
+                    <Weazel_Core_Infantry>1</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>1</Weazel_Guidon_Bearer>
+                    <Weazel_Trooper>1</Weazel_Trooper>
+                    <Weazel_Heavy>10</Weazel_Heavy>
+                    <Weazel_Veteran>1</Weazel_Veteran>
+                </options>
+            </li>
+            <!--합동 기동 타격팀-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>35</commonality>
+                <maxTotalPoints>4000</maxTotalPoints>
+                <options>
+                    <Weazel_Assault_Trooper>25</Weazel_Assault_Trooper>
+                    <Weazel_Assalut_Guidon>1</Weazel_Assalut_Guidon>
+                    <Weazel_Berserker>8</Weazel_Berserker>
+                    <Weazel_Core_Infantry>25</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>1</Weazel_Guidon_Bearer>
+                    <Weazel_Heavy>10</Weazel_Heavy>
+                </options>
+            </li>
+            <!--XCC 정규군-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>35</commonality>
+                <maxTotalPoints>10000</maxTotalPoints>
+                <options>
+                    <Weazel_Core_Infantry>25</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>1</Weazel_Guidon_Bearer>
+                    <Weazel_Assault_Trooper>1</Weazel_Assault_Trooper>
+                    <Weazel_Marksman>13</Weazel_Marksman>
+                    <Weazel_Heavy>15</Weazel_Heavy>
+                    <Weazel_Veteran>10</Weazel_Veteran>
+                </options>
+            </li>
+            <!--XCC 중보병 부대-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>35</commonality>
+                <maxTotalPoints>10000</maxTotalPoints>
+                <options>
+                    <Weazel_Berserker>30</Weazel_Berserker>
+                    <Weazel_Heavy>10</Weazel_Heavy>
+                    <Weazel_Veteran>2</Weazel_Veteran>
+                </options>
+            </li>
+            <!-- 시설 방어 -->
+            <li>
+            <kindDef>Settlement</kindDef>
+                <options>
+                    <Weazel_Veteran>2</Weazel_Veteran>
+                    <Weazel_BulletSponge>20</Weazel_BulletSponge>
+                    <Weazel_Recruit>20</Weazel_Recruit>
+                    <Weazel_Core_Infantry>40</Weazel_Core_Infantry>
+                    <Weazel_Guidon_Bearer>5</Weazel_Guidon_Bearer>
+                    <Weazel_Marksman>15</Weazel_Marksman>
+                    <Weazel_Heavy>10</Weazel_Heavy>
+                </options>
+            </li>
+            <li>
+            <kindDef>Peaceful</kindDef>
+                <options>
+                    <Weazel_Veteran>1</Weazel_Veteran>
+                    <Weazel_BulletSponge>20</Weazel_BulletSponge>
+                    <Weazel_Recruit>30</Weazel_Recruit>
+                    <Weazel_Core_Infantry>50</Weazel_Core_Infantry>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <raidCommonalityFromPointsCurve>
+			<points>
+				<li>(10,  11)</li>
+				<li>(70,  31.5)</li>
+				<li>(140,  1.5)</li>
+				<li>(250,  1.5)</li>
+				<li>(700,  1.5)</li>
+				<li>(2400, 1.5)</li>
+				<li>(3800, 1.5)</li>
+				<li>(5000, 1.5)</li>
+				<li>(6500, 2.5)</li>
+				<li>(8000, 3.0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<settlementTexturePath>Icon/Weazel_icon_XCC</settlementTexturePath>
+    </FactionDef>
+
+    <FactionDef ParentName="WeazelFactionBase">
+        <defName>XCCRaidBase</defName>
+        <label>XCC 약탈대대</label>
+        <description>XCC 클론 시설에서 배양된 위젤 약탈 대대입니다.</description>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <naturalEnemy>true</naturalEnemy>
+        <factionIconPath>Icon/Weazel_icon_XCC</factionIconPath>
+    </FactionDef>
+</Defs>

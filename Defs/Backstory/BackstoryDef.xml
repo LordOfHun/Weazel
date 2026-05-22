@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlienRace.AlienBackstoryDef Name="WeazelBackStory" Abstract="True">
+		<disallowedTraits>
+			<Beauty>-2</Beauty>
+			<Nerves>-2</Nerves>
+		</disallowedTraits>
+		<bodyTypeMale>Thin</bodyTypeMale>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+	</AlienRace.AlienBackstoryDef>
+		
+	<!-- 성년기 위젤 -->
+		
+	<!-- 위젤 수컷조련사 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_MaleTamer</defName>
+		<title>Weazel MaleTamer</title>
+		<titleShort>Tamer</titleShort>
+		<description>수컷들을 사용하기쉽게 조련하는 것은 정말 중요합니다. 수컷들마다 어떤 쓰임세로 사용되냐 따라서 교육시켜야하거나 개량시켜야하는 부분이 다르니까 말입니다. [PAWN_nameDef]는 이런 짐승들을 어떻게 조련하는지 잘 알고있습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>4</Melee>
+			<Animals>6</Animals>
+			<Cooking>-4</Cooking>
+			<Intellectual>-4</Intellectual>
+		</skillGains>	
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelBulletSponge</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 베테랑 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Veteran</defName>
+		<title>Weazel Veteran</title>
+		<titleShort>Veteran</titleShort>
+		<description>그간 많은 전투 경험이 있는 [PAWN_nameDef]에겐 이제 싸운다는 그것만으로도 희열을 느끼게 만듭니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>4</Melee>
+			<Social>-4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelCore</li>
+			<li>WeazelVeteran</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 수컷 개량사 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Male_Refiner</defName>
+		<title>Weazel Male Refiner</title>
+		<titleShort>Refiner</titleShort>
+		<description>[PAWN_nameDef]는 개량되어야할 개체들을 보며 말하곤 했습니다. "그 보기 흉한 핑크빛 피부는 잘못됐어... 내가.. 내가 고쳐줄게... 히히히히"</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Medicine>8</Medicine>
+			<Social>-4</Social>
+			<Construction>-4</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelBulletSponge</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 장식품 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Decorative</defName>
+		<title>Decorative Weazel</title>
+		<titleShort>Decorative</titleShort>
+		<description>정말 쓸모는 없지만 몸매나 외모라도 아름답다고 판단된 위젤은 '장식'됩니다. 보통 이런 류의 위젤은 흥을 돋구기위해 춤을 추거나 온갖 행위 예술을 선보입니다. [PAWN_nameDef]는 그런 쪽으로 수컷은 물론 암컷까지도 매료시킬 수 있었습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>6</Social>
+			<Artistic>6</Artistic>
+		</skillGains>
+		<forcedTraits>
+			<Beauty>2</Beauty>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 PTSD -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_PTSD</defName>
+		<title>Weazel PTSD</title>
+		<titleShort>PTSD</titleShort>
+		<description>"안돼.. 그만둬.. 내가.. 내가 잘못했어!.. 그만.. 더이상은.. 더이상은 안돼!!!" [PAWN_nameDef]는 그때 당했던 고문 이후로 이런 식으로 잠꼬대를 합니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>-4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelRecruitAble</li>
+			<li>WeazelBulletSponge</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 기준병 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Standard-bearer</defName>
+		<title>Weazel Standard bearer</title>
+		<titleShort>Standard bearer</titleShort>
+		<description>위젤의 약탈방식은 막무가내로 일어나지않습니다. 항상 기준병이 존재하며 이들은 분대장은 아니지만 대열이나 침략 루트를 기준 짓는 아주 중요한 역할입니다. [PAWN_nameDef]는 살아남기위해서 누구보다 노련해야했고 살아있다는 것만으로도 그건 확실합니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>4</Melee>
+		</skillGains>
+		<forcedTraits>
+			<Brawler>0</Brawler>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelCore</li>
+			<li>WeazelTrooper</li>
+			<li>WeazelMarksman</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 엔지니어 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Engineer</defName>
+		<title>Weazel Engineer</title>
+		<titleShort>Engineer</titleShort>
+		<description>[PAWN_nameDef]는 로봇이나 기계따위를 고치고 수리하는 보수역할을 맡았습니다. 위젤 사회에서 로봇은 정말 중요한 요소 중 하나입니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>-2</Melee>
+			<Crafting>6</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelRecruitAble</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 인공지능 감별사 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_AI_Discriminator</defName>
+		<title>Weazel AI Discriminator</title>
+		<titleShort>AI Discriminator</titleShort>
+		<description>위젤들이 사용하는 모든 인공지능은 감정이 존재합니다. 그리고 그 감정들은 보통 피학적이고 자학적인 성격을 뜁니다. 이런 인공지능들은 매일 위젤들에게 모욕당하며 만족스러운 반응을 보입니다. [PAWN_nameDef]는 이렇게 오랜 시간동안 모욕당한 인공지능을 리셋할지, 삭제할지를 감별하는 역할을 했습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>1</Social>
+			<Animals>1</Animals>
+			<Artistic>8</Artistic>	
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelRecruitAble</li>
+			<li>WeazelBulletSponge</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 나르시즘 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Narcissism</defName>
+		<title>Weazel Narcissism</title>
+		<titleShort>Narcissism</titleShort>
+		<description>"너 정말 아름다워.. 마치 나처럼 말이야." [PAWN_nameDef]는 나르시즘에 빠졌지만 다른 개체를 사랑하는 방법도 잘 알고있습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Cooking>2</Cooking>
+			<Plants>2</Plants>
+			<Crafting>2</Crafting>		
+		</skillGains>
+		<forcedTraits>
+			<Gay>0</Gay>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelRecruitAble</li>
+			<li>WeazelBulletSponge</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 현상수배범 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_BountHunter</defName>
+		<title>Weazel Bount Hunter</title>
+		<titleShort>BountHunter</titleShort>
+		<description>많은 위젤들이 현상수배범입니다. 하지만 이 수많은 위젤 중 누가 현상수배범인지 알 수 있을까요? 적어도 [PAWN_nameDef]가 현상수배범인지는 모를겁니다. 보통은 [PAWN_nameDef]를 눈치챈 순간 머리엔 납탄이 박혀버렸으니까요.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>3</Melee>
+			<Construction>-4</Construction>
+			<Mining>-4</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelVeteran</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 파일럿 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Pilot</defName>
+		<title>Weazel Pilot</title>
+		<titleShort>Pilot</titleShort>
+		<description>작든 크든 우주선을 모는 것은 위젤들에겐 큰 업적 중 하나일 겁니다. 속전속결로 일을 처리하고 필요하다면 과감해야하는 미치광이가 되어야하니까요. [PAWN_nameDef]는 살아남았다는 것에서 이미 그것을 증명했습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Medicine>-4</Medicine>
+			<Construction>2</Construction>
+			<Plants>-2</Plants>
+			<Mining>2</Mining>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 약탈꾼 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Marauder</defName>
+		<title>Weazel Marauder</title>
+		<titleShort>Marauder</titleShort>
+		<description>약탈하는 것에서 가장 중요한 것은 살아남는 것도 있지만 전리품을 어떻게 잘 얻냐는겁니다. [PAWN_nameDef]는 자신의 전리품을 뺏기지않기위해 잘 숨기고 잘 빼돌렸습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>6</Social>
+			<Crafting>1</Crafting>
+		</skillGains>
+		<forcedTraits>
+			<Greedy>0</Greedy>
+		</forcedTraits>		
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelVeteran</li>
+			<li>WeazelBulletSponge</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 스위치를 누른 자 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Presser</defName>
+		<title>Weazel Presser</title>
+		<titleShort>Presser</titleShort>
+		<description>어떤 업적을 이룬 위젤은 다음 복제물을 생산할 스위치를 누를 자격이 주어집니다. 새롭게 배양되어 복제된 위젤들은 스위치를 누른 위젤보다 아랫 계급이 됩니다. [PAWN_nameDef]는 스위치를 누를만큼 강했습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>10</Shooting>
+			<Melee>10</Melee>
+			<Medicine>4</Medicine>
+		</skillGains>
+		<forcedTraits>
+			<Tough>0</Tough>
+			<Nimble>0</Nimble>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelPresser</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 전략가 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Strategist</defName>
+		<title>Weazel Strategist</title>
+		<titleShort>Strategist</titleShort>
+		<description>다 똑같은 위젤이라도 얼마나 경험을 쌓냐에 따라 그 노련함이 달라집니다. [PAWN_nameDef]만 봐도 그건 쉽게 알 수 있지요.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>3</Melee>
+			<Social>4</Social>
+		</skillGains>
+		<forcedTraits>
+			<GreatMemory>0</GreatMemory>
+		</forcedTraits>		
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 군의관 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Doctor</defName>
+		<title>Weazel Doctor</title>
+		<titleShort>Doctor</titleShort>
+		<description>"오오... 너 팔이 너무 아름다워... 분명 이렇게 이쁜 팔이라면 내장도 아름다울거야." [PAWN_nameDef]는 가망이 없는 개체야 말로 진짜 돈벌이 수단이란 것을 잘 알았습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>1</Social>
+			<Medicine>8</Medicine>
+			<Cooking>-3</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelRecruitAble</li>
+			<li>WeazelCore</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 개조광 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_BodyTinkerer</defName>
+		<title>Weazel Body Tinkerer</title>
+		<titleShort>Body Tinkerer</titleShort>
+		<description>[PAWN_nameDef]는 유전적인 것보다 더 초월적인 강함을 추구합니다. 그녀는 자신의 육신이 모든 것을 초월할 수 있다면 무슨 짓이든 할 것 입니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Social>2</Social>
+			<Animals>1</Animals>
+			<Medicine>1</Medicine>
+			<Mining>1</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelBulletSponge</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 애완용 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_Pet</defName>
+		<title>Weazel Pet</title>
+		<titleShort>Pet</titleShort>
+		<description>때론 어떤 이유 때문에 갓 생산된 위젤들은 상위 카스트에 적당한 가격에 사들여지곤 합니다. [PAWN_nameDef]은 아직도 자신이 왜 네 발로 걸었고 왜 사료를 먹으면서 훈련받았는지 이해를 못합니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>6</Melee>
+			<Social>2</Social>
+		</skillGains>
+		<workDisables>
+			<li>Intellectual</li>
+		</workDisables>
+		<forcedTraits>
+			<SpeedOffset>1</SpeedOffset>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelALL</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 판매용 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weazel_ForSaleUnit</defName>
+		<title>Weazel For Sale Unit</title>
+		<titleShort>For Sale Unit</titleShort>
+		<description>[PAWN_nameDef]는 자신을 팔아치운 동족이 자신과 똑같은 자세를 취하며 호객행위를 했던 말을 아직도 기억합니다. "비싸다니? 이 몸을 보라고. 상등품이라니까?"</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Cooking>4</Cooking>
+			<Plants>4</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 바디가드 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weasel_BodyGuard</defName>
+		<title>Weasel Body Guard</title>
+		<titleShort>Body Guard</titleShort>
+		<description>알파나 베타와 같이 아주 높은 카스트들 호위하기위한 목적으로 만들어진 이 위젤들은 수컷, 심지어 암컷조차 매혹시키는 페르몬을 풍기게끔 개량되었습니다. [PAWN_nameDef]도 그런 개량품이며 철저한 전투 훈련까지 받았습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>3</Melee>
+			<Social>5</Social>
+		</skillGains>
+		<workDisables>
+			<li>Mining</li>
+		</workDisables>		
+		<forcedTraits>
+			<Beauty>2</Beauty>
+			<Nimble>0</Nimble>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelALL</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 진압병 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weasel_Riot</defName>
+		<title>Weasel Riot</title>
+		<titleShort>Riot</titleShort>
+		<description>작은 체구와 다르게 위젤들은 꽤 힘이 좋고 강인합니다. 그리고 이런 특징들은 위젤에게 더 단단해지고 강인해지고싶은 욕망을 만들었습니다. [PAWN_nameDef] 또한 그런 욕망으로 진압병이 되었습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>6</Melee>
+			<Construction>2</Construction>
+		</skillGains>
+		<forcedTraits>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<spawnCategories>
+			<li>WeazelALL</li>
+			<li>WeazelRecruitAble</li>
+			<li>WeazelBerserker</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<!-- 위젤 공병 -->
+	<AlienRace.AlienBackstoryDef ParentName="WeazelBackStory">
+		<defName>Weasel_CombatEngineer</defName>
+		<title>Weasel Combat Engineer</title>
+		<titleShort>Combat Engineer</titleShort>
+		<description>약탈 대상이 행성이라면 위젤들은 습격캠프를 만들어 전진기지처럼 사용합니다. [PAWN_nameDef]는 이런 것들을 만드는 역할을 담당했습니다.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>-2</Medicine>
+			<Construction>6</Construction>
+			<Mining>6</Mining>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>WeazelALL</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

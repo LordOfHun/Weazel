@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Geckco</defName>
+        <label>위젤 리볼버탄</label>
+        <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        <color>(255, 150, 50)</color> </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>13</damageAmountBase>
+            <speed>55</speed>
+            <armorPenetrationBase>0.2</armorPenetrationBase>
+            <stoppingPower>1</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Viper</defName>
+        <label>위젤 SMG탄</label>
+        <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        <color>(255, 150, 50)</color> </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>8</damageAmountBase>
+            <speed>55</speed>
+            <armorPenetrationBase>0.14</armorPenetrationBase>
+            <stoppingPower>0.5</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Mamba</defName>
+        <label>위젤 전투소총탄</label>
+        <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        <color>(255, 150, 50)</color> </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>11</damageAmountBase>
+            <speed>70</speed>
+            <armorPenetrationBase>0.16</armorPenetrationBase>
+            <stoppingPower>0.5</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Anaconda</defName>
+        <label>위젤 경기관총탄</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <color>(255, 150, 50)</color>
+            <drawSize>(1.2, 1.2)</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <speed>46</speed>
+            <armorPenetrationBase>0.14</armorPenetrationBase>
+            <stoppingPower>2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Caiman</defName>
+        <label>위젤 사냥용소총탄</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Small</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <color>(255, 150, 50)</color>
+            <drawSize>(1.2, 1.2)</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>25</damageAmountBase>
+            <speed>70</speed>
+            <armorPenetrationBase>0.28</armorPenetrationBase>
+            <stoppingPower>2</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Caiman_H</defName>
+        <label>위젤 저격총탄</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <color>(255, 150, 50)</color>
+            <drawSize>(1.2, 1.2)</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>30</damageAmountBase>
+            <speed>100</speed>
+            <armorPenetrationBase>0.40</armorPenetrationBase>
+            <stoppingPower>3</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_NineBarrelShotgun</defName>
+        <label>위젤 나인배럴 샷건탄</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <color>(255, 150, 50)</color>
+        </graphicData>
+        <!--<thingClass>Projectile_Explosive</thingClass>-->
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <!--<explosionRadius>0.2</explosionRadius>-->
+            <speed>55</speed>
+            <armorPenetrationBase>0.14</armorPenetrationBase>
+            <stoppingPower>3</stoppingPower>
+        </projectile>
+    </ThingDef>
+    
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Alligator</defName>
+        <label>오토캐논 고폭탄</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>(2.0, 2.0)</drawSize>
+            <color>(255, 150, 50)</color>
+        </graphicData>
+        <thingClass>Projectile_Explosive</thingClass>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>18</damageAmountBase>
+            <speed>70</speed>
+            <armorPenetrationBase>0.10</armorPenetrationBase>
+            <explosionRadius>1.9</explosionRadius>
+            <stoppingPower>4</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseBullet">
+        <defName>Bullet_Taipan</defName>
+        <label>위젤 기관총탄</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>TransparentPostLight</shaderType>
+            <color>(255, 150, 50)</color>
+            <drawSize>(1.0, 1.0)</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <speed>70</speed>
+            <armorPenetrationBase>0.14</armorPenetrationBase>
+            <stoppingPower>0.5</stoppingPower>
+        </projectile>
+    </ThingDef>
+</Defs>

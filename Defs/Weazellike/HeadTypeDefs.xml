@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HeadTypeDef ParentName="AverageBase" Name="Infinity_MaleHeadtypeBase" Abstract="True">
+        <gender>Female</gender>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadA</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headA</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadB</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headB</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadC</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headC</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadD</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headD</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadE</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headE</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadF</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headF</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadG</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headG</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadH</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headH</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadI</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headI</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadJ</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headJ</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadK</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headK</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadL</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headL</graphicPath>
+    </HeadTypeDef>
+</Defs>

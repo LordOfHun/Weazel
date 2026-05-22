@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Defs>
+    <GeneDef ParentName="GeneAggressionBase">
+        <defName>WeazelGene_WeazelSyndrome</defName>
+        <label>위젤 신드롬</label>
+        <labelShortAdj>W 신드롬</labelShortAdj>
+        <description>그들은 에센스 추출로부터 황홀감을 느끼며, 다음 추출만을 기다리게 됩니다.</description>
+        <iconPath>Icon/Weazel_icon</iconPath>
+        <prisonBreakMTBFactor>-1</prisonBreakMTBFactor> <!-- Never prison breaks -->
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>still</symbol></li>
+                <li><symbol>seren</symbol></li>
+                <li><symbol>tranqu</symbol></li>
+                <li><symbol>hush</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+
+    <GeneDef ParentName="LibidoBase">
+        <defName>WeazelGene_E_Cattle_Horny</defName>
+        <label>에센스 가축화 : 번식촉진</label>
+        <labelShortAdj>에센스 가축</labelShortAdj>
+        <description>위젤들은 멘탈이 완전히 나가버렸습니다. 에센스를 써야할 곳은 많은데 에센스가 너무 부족했던거죠.\n그때, 한 천재적인 위젤이 이 유전자를 만들었습니다.\n에센스를 많이 뽑아야한다면, 에센스를 뽑을 수 있는 가축을 불려서 해결하기로 한거죠.</description>
+        <iconPath>Icon/Weazel_icon</iconPath>
+        <missingGeneRomanceChanceFactor>0.2</missingGeneRomanceChanceFactor>
+        <lovinMTBFactor>0.5</lovinMTBFactor>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>3</biostatCpx>
+        <modExtensions>
+            <li Class="GeneExtension_Romance.GeneExtension_Romance">
+                <lovinGeneRomanceChanceFactor>4.0</lovinGeneRomanceChanceFactor>
+            </li>
+        </modExtensions>
+        <statFactors>
+            <Fertility>2</Fertility>
+        </statFactors>
+        <symbolPack>
+            <prefixSymbols>
+                <li><symbol>still</symbol></li>
+                <li><symbol>seren</symbol></li>
+                <li><symbol>tranqu</symbol></li>
+                <li><symbol>hush</symbol></li>
+            </prefixSymbols>
+        </symbolPack>
+    </GeneDef>
+</Defs>

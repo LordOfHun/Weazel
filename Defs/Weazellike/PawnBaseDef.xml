@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Name="Weazel_PawnBase" ParentName="BasePawn" Abstract="True">
+        <thingClass>Pawn</thingClass>
+        <category>Pawn</category>
+        <selectable>true</selectable>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Pawn</altitudeLayer>
+        <useHitPoints>false</useHitPoints>
+        <hasTooltip>true</hasTooltip>
+        <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
+        <butcherProducts>
+            <!-- 도축시 상시 드랍 품목 -->
+        </butcherProducts>
+        <statBases>
+            <Mass>50</Mass>
+        </statBases>
+    </ThingDef>
+</Defs>
