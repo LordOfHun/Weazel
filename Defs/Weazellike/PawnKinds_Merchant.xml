@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--위젤 물류담당관-->
+    <PawnKindDef ParentName="WeazelBasePawnKind">
+        <defName>Weazel_Merchant</defName>
+        <label>위젤 물류담당관</label>
+        <combatPower>14</combatPower>
+        <isFighter>true</isFighter>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+        <trader>true</trader>
+        <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>WeazelRecruitAble</li> <!-- 백스토리 추후 수정 요망 -->
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+        <apparelTags>
+            <li>Weazel_Infantry</li>
+		</apparelTags>
+        <apparelMoney>
+			<min>290</min>
+			<max>310</max>
+		</apparelMoney>
+        <apparelRequired>
+            <li>Weazel_Bodysuit_A</li>
+		</apparelRequired>
+        <weaponTags>
+            <li>W_Recruit</li>
+		</weaponTags>
+        <weaponMoney>
+			<min>135</min>
+			<max>400</max>
+		</weaponMoney>
+        <techHediffsChance>0.0</techHediffsChance>
+        <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+        <inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Weazel_Essence</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>2</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <initialWillRange>0~1</initialWillRange>
+        <initialResistanceRange>10~15</initialResistanceRange>
+    </PawnKindDef>
+
+    <!--위젤 간수-->
+    <PawnKindDef ParentName="WeazelBasePawnKind">
+        <defName>Weazel_Warden</defName>
+        <label>위젤 간수</label>
+        <combatPower>14</combatPower>
+        <isFighter>true</isFighter>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+        <trader>true</trader>
+        <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>WeazelRecruitAble</li> <!-- 백스토리 추후 수정 요망 -->
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+        <apparelTags>
+            <li>Weazel_Infantry</li>
+		</apparelTags>
+        <apparelMoney>
+			<min>290</min>
+			<max>310</max>
+		</apparelMoney>
+        <apparelRequired>
+            <li>Weazel_Bodysuit_A</li>
+		</apparelRequired>
+        <weaponTags>
+            <li>W_Recruit</li>
+		</weaponTags>
+        <weaponMoney>
+			<min>135</min>
+			<max>400</max>
+		</weaponMoney>
+        <techHediffsChance>0.0</techHediffsChance>
+        <apparelAllowHeadgearChance>0.0</apparelAllowHeadgearChance>
+        <inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Weazel_Essence</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>2</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <initialWillRange>0~1</initialWillRange>
+        <initialResistanceRange>10~15</initialResistanceRange>
+    </PawnKindDef>
+
+    <!--위젤 상단 호위병-->
+    <PawnKindDef ParentName="WeazelBasePawnKind">
+        <defName>Weazel_Caravan_Guard</defName>
+        <label>위젤 상단 호위병</label>
+        <combatPower>35</combatPower>
+        <isFighter>true</isFighter>
+        <forceNormalGearQuality>false</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <trader>false</trader>
+        <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>WeazelCore</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+        <apparelTags>
+            <li>Weazel_Infantry</li>
+		</apparelTags>
+        <apparelMoney>
+			<min>1210</min>
+			<max>1300</max>
+		</apparelMoney>
+        <apparelRequired>
+            <li>Weazel_Bodysuit_A</li>
+            <li>Weazel_WeazelHelmat</li>
+            <li>Weazel_Duster</li>
+            <li>Weazel_WeazelFlakvest</li>
+		</apparelRequired>
+        <weaponTags>
+            <li>W_Core</li>
+		</weaponTags>
+        <weaponMoney>
+			<min>135</min>
+			<max>500</max>
+		</weaponMoney>
+        <techHediffsChance>0.0</techHediffsChance>
+        <!--<apparelAllowHeadgearChance>0.65</apparelAllowHeadgearChance>-->
+        <inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Weazel_Essence</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>2</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <initialWillRange>1~2</initialWillRange>
+        <initialResistanceRange>10~15</initialResistanceRange>
+    </PawnKindDef>
+
+    <!--위젤 보디가드-->
+    <PawnKindDef ParentName="WeazelBasePawnKind">
+        <defName>Weazel_BodyGuard</defName>
+        <label>위젤 보디가드</label>
+        <combatPower>110</combatPower>
+        <isFighter>true</isFighter>
+        <forceNormalGearQuality>false</forceNormalGearQuality>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <trader>false</trader>
+        <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>WeazelTrooper</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+        <apparelTags>
+            <li>Weazel_Apparel</li>
+            <li>Weazel_PowerArmor</li>
+		</apparelTags>
+        <apparelMoney>
+			<min>3100</min>
+			<max>4500</max>
+		</apparelMoney>
+        <apparelRequired>
+            <li>Weazel_Bodysuit_A</li>
+            <li>Weazel_MarderArmor</li>
+            <li>Weazel_MarderHelmat</li>
+		</apparelRequired>
+        <weaponTags>
+            <li>W_Heavy</li>
+		</weaponTags>
+        <weaponMoney>
+			<min>600</min>
+			<max>1500</max>
+		</weaponMoney>
+        <techHediffsChance>0.03</techHediffsChance>
+        <apparelAllowHeadgearChance>0.65</apparelAllowHeadgearChance>
+        <inventoryOptions>
+			<skipChance>0.5</skipChance>
+			<subOptionsChooseOne>
+				<li>
+					<thingDef>Weazel_Essence</thingDef>
+					<countRange>
+						<min>1</min>
+						<max>2</max>
+					</countRange>
+				</li>
+			</subOptionsChooseOne>
+		</inventoryOptions>
+        <initialWillRange>1~4</initialWillRange>
+        <initialResistanceRange>10~20</initialResistanceRange>
+    </PawnKindDef>
+</Defs>

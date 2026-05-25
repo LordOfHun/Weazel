@@ -75,7 +75,7 @@
             <li>Caravan_Weazel_GeneMerchant</li>
 		</caravanTraderKinds>
         <visitorTraderKinds>
-			<li>Visitor_Outlander_Standard</li>
+			<li>Caravan_Weazel_GeneMerchant</li>
 		</visitorTraderKinds>
         <baseTraderKinds>
 			<li>Base_Outlander_Standard</li>
@@ -280,6 +280,22 @@
                     <Weazel_Recruit>30</Weazel_Recruit>
                     <Weazel_Core_Infantry>50</Weazel_Core_Infantry>
                 </options>
+            </li>
+            <!-- 상단 -->
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <Weazel_Merchant>1</Weazel_Merchant>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Dromedary>5</Dromedary>
+                    <Alpaca>2</Alpaca>
+                    <Elephant>1</Elephant>
+                </carriers>
+                <guards>
+                    <Weazel_Caravan_Guard>8</Weazel_Caravan_Guard>
+                </guards> 
             </li>
         </pawnGroupMakers>
         <raidCommonalityFromPointsCurve>
