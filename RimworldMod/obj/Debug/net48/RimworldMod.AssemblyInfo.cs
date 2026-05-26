@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RimworldMod")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+028dfbaa4c8b16e304be1ca907d31abcae7ea6d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cd5adc1ed956b1ca4a0a175bf6d588e743c1e2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RimworldMod")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RimworldMod")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

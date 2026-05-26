@@ -70,8 +70,6 @@
             <li>WeazelALL</li>
 		</backstoryCategories>
         <caravanTraderKinds>
-            <li>Caravan_Weazel_SlaveMerchant</li>
-            <li>Caravan_Weazel_MercenaryMerchant</li>
             <li>Caravan_Weazel_GeneMerchant</li>
 		</caravanTraderKinds>
         <visitorTraderKinds>

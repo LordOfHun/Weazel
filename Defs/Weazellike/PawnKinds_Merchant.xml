@@ -132,7 +132,7 @@
             <li>Weazel_WeazelFlakvest</li>
 		</apparelRequired>
         <weaponTags>
-            <li>W_Core</li>
+            <li>W_Guard</li>
 		</weaponTags>
         <weaponMoney>
 			<min>135</min>

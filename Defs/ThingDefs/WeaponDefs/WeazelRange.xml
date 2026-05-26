@@ -219,6 +219,7 @@
             <li>WeazelInfantryWeapon</li>
             <li>W_Core</li>
             <li>W_Heavy</li>
+            <li>W_Guard</li>
         </weaponTags>
     </ThingDef>
 
