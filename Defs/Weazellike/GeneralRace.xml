@@ -67,6 +67,12 @@
                 <customDrawSize>(0.75, 0.75)</customDrawSize>
                 <customHeadDrawSize>(0.85, 0.85)</customHeadDrawSize>
                 <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+                <headOffsetDirectional>
+                    <north><offset>(0.0, -0.003215434)</offset></north>
+                    <south><offset>(0.0, -0.003215434)</offset></south>
+                    <east><offset>(-0.03536978, -0.04180064)</offset></east>
+                    <west><offset>(0.003215434, -0.04823151)</offset></west>
+                </headOffsetDirectional>
 
                 <colorChannels>
                     <!-- 스킨 컬러 -->
@@ -119,7 +125,7 @@
                         <offsets>
                             <south>
                                 <bodyTypes>
-                                    <Female>(0,0.55)</Female>
+                                    <Female>(-0.3762058,0.3247588)</Female>
                                     <Baby MayRequire="Ludeon.Rimworld.Biotech">(0,0.48)</Baby>
                                     <Child MayRequire="Ludeon.Rimworld.Biotech">(0,0.48)</Child>
                                 </bodyTypes>
@@ -134,7 +140,7 @@
                             </north>
                             <east>
                                 <bodyTypes>
-                                    <Female>(-0.45,0.24)</Female>
+                                    <Female>(-0.07395498,0.24)</Female>
                                     <Baby MayRequire="Ludeon.Rimworld.Biotech">(0,0.48)</Baby>
                                     <Child MayRequire="Ludeon.Rimworld.Biotech">(0,0.48)</Child>
                                 </bodyTypes>
