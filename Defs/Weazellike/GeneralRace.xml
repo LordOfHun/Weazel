@@ -141,7 +141,7 @@
                             <east>
                                 <bodyTypes>
                                     <Female>(-0.07395498,0.24)</Female>
-                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(0,0.48)</Baby>
+                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(-0.2411576,0.24)</Baby>
                                     <Child MayRequire="Ludeon.Rimworld.Biotech">(0,0.48)</Child>
                                 </bodyTypes>
                             </east>
@@ -170,7 +170,7 @@
                                 <bodyTypes>
                                     <Female>(-0.028,-0.12)</Female>
                                     <Baby MayRequire="Ludeon.Rimworld.Biotech">(0.0096,0.35)</Baby>
-                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.0225,0.267)</Child>
+                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(0.009646302,-0.3504823)</Child>
                                 </bodyTypes>
                             </south>
                             <north>
@@ -178,14 +178,14 @@
                                 <bodyTypes>
                                     <Female>(-0.0032,0.042)</Female>
                                     <Baby MayRequire="Ludeon.Rimworld.Biotech">(0.0096,0.35)</Baby>
-                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.0225,0.267)</Child>
+                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(0.009646302,-0.3504823)</Child>
                                 </bodyTypes>
                             </north>
                             <east>
                                 <bodyTypes>
                                     <Female>(0.16,0.1447)</Female>
                                     <Baby MayRequire="Ludeon.Rimworld.Biotech">(0.048,0.37)</Baby>
-                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.055,0.28)</Child>
+                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(0.02893891,-0.1897106)</Child>
                                 </bodyTypes>
                             </east>
                         </offsets>
@@ -212,7 +212,7 @@
                                 <bodyTypes>
                                     <Female>(0.016,-0.12)</Female>
                                     <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.0096,-0.35)</Baby>
-                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.0225,-0.267)</Child>
+                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(-0.003215434,-0.3504823)</Child>
                                 </bodyTypes>
                             </south>
                             <north>
@@ -220,14 +220,14 @@
                                 <bodyTypes>
                                     <Female>(-0.0032,0.041)</Female>
                                     <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.0096,-0.35)</Baby>
-                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.0225,-0.267)</Child>
+                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(-0.003215434,-0.3504823)</Child>
                                 </bodyTypes>
                             </north>
                             <east>
                                 <bodyTypes>
                                     <Female>(0.016,-0.1447)</Female>
                                     <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.048,-0.37)</Baby>
-                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.055,-0.28)</Child>
+                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.02893891,-0.1897106)</Child>
                                 </bodyTypes>
                             </east>
                         </offsets>
