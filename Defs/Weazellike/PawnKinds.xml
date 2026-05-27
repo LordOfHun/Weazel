@@ -39,11 +39,14 @@
         </backstoryFiltersOverride>
         <chemicalAddictionChance>0</chemicalAddictionChance>
         <apparelTags> <!--초기 장비-->
-			<li>IndustrialBasic</li>
+			<li>Weazel_Infantry</li>
 		</apparelTags>
+        <apparelRequired>
+            <li>Weazel_Bodysuit_A</li>
+		</apparelRequired>
         <apparelMoney>
-            <min>200</min>
-            <max>500</max>
+            <min>0</min>
+            <max>0</max>
         </apparelMoney>
         <initialWillRange>0~0</initialWillRange>
         <initialResistanceRange>25~40</initialResistanceRange>

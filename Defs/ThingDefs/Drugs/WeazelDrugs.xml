@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!--
     <ThingDef ParentName="MakeableDrugBase">
     <defName>Weazel_EssenceJuice</defName>
     <label>에센스 주스</label>
@@ -19,7 +20,7 @@
       <MarketValue>53</MarketValue>
       <Mass>0.1</Mass>
     </statBases>
-    <!--<techLevel>Industrial</techLevel>-->
+    //<techLevel>Industrial</techLevel>
     <ingestible>
       <joyKind>Chemical</joyKind>
       <joy>0.40</joy>
@@ -73,6 +74,7 @@
       </li>
     </comps>
   </ThingDef>
+  -->
 
   <HediffDef>
     <defName>EssenceHigh</defName>

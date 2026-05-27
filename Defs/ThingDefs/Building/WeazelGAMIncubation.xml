@@ -35,8 +35,9 @@
             <li>BuildingsProduction</li>
         </thingCategories>
         <costList>
-            <Steel>340</Steel>
-            <ComponentIndustrial>12</ComponentIndustrial>
+            <Steel>200</Steel>
+            <Weazel_Essence>60</Weazel_Essence>
+            <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
         <canOverlapZones>false</canOverlapZones>

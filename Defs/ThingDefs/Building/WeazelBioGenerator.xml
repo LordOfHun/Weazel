@@ -33,8 +33,9 @@
             <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
         </building>
         <costList>
-            <Steel>100</Steel>
+            <Steel>225</Steel>
             <ComponentIndustrial>3</ComponentIndustrial>
+            <Weazel_GAM>60</Weazel_GAM>
         </costList>
         <comps>
             <li Class="CompProperties_Power">

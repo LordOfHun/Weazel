@@ -55,7 +55,7 @@
         <listOrderPriority>30</listOrderPriority>
         <settlementGenerationWeight>1.5</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
-        <maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <canMakeRandomly>true</canMakeRandomly>
@@ -286,10 +286,7 @@
                     <Weazel_Merchant>1</Weazel_Merchant>
                 </traders>
                 <carriers>
-                    <Muffalo>6</Muffalo>
-                    <Dromedary>5</Dromedary>
-                    <Alpaca>2</Alpaca>
-                    <Elephant>1</Elephant>
+                    <Muffalo>1</Muffalo>
                 </carriers>
                 <guards>
                     <Weazel_Caravan_Guard>8</Weazel_Caravan_Guard>

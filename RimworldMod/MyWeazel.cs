@@ -59,6 +59,7 @@ namespace MyWeazelMod // 본인의 네임스페이스 (중요하지 않지만 �
             }
         }
     }
+    
 
     [HarmonyPatch(typeof(EquipmentUtility), "CanEquip", new Type[] {typeof(Verse.Thing), typeof(Verse.Pawn), typeof(string), typeof(bool)},
         new[] { ArgumentType.Normal, ArgumentType.Normal, ArgumentType.Out, ArgumentType.Normal })]

@@ -13,7 +13,7 @@
         <label>에센스 가공</label>
         <description>에센스 방직기를 해금합니다</description>
         <tab>WeazelTech</tab>
-        <baseCost>1000</baseCost>
+        <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <!--
         <prerequisites>
@@ -30,7 +30,7 @@
         <label>효율적인 가축화</label>
         <description>수감자용 슈트를 해금합니다</description>
         <tab>WeazelTech</tab>
-        <baseCost>1000</baseCost>
+        <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <!--
         <prerequisites>
@@ -81,9 +81,10 @@
         <label>인공 근섬유 재현</label>
         <description>마르더 아머, 마틴 아머를 해금합니다</description>
         <tab>WeazelTech</tab>
-        <baseCost>1000</baseCost>
+        <baseCost>3500</baseCost>
         <techLevel>Spacer</techLevel>
         <prerequisites>
+            <li>Fabrication</li>
             <li>WeazelGAMIncubation</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
@@ -96,9 +97,10 @@
         <label>인공 생체 응용</label>
         <description>생체 발전기를 해금합니다</description>
         <tab>WeazelTech</tab>
-        <baseCost>1000</baseCost>
+        <baseCost>2500</baseCost>
         <techLevel>Spacer</techLevel>
         <prerequisites>
+            <li>Electricity</li>
             <li>WeazelGAMIncubation</li>
         </prerequisites>
         <researchViewX>2</researchViewX>
@@ -113,9 +115,10 @@
         <label>무장 거대화</label>
         <description>위젤 중화기를 해금합니다</description>
         <tab>WeazelTech</tab>
-        <baseCost>1000</baseCost>
+        <baseCost>1500</baseCost>
         <techLevel>Spacer</techLevel>
         <prerequisites>
+            <li>PrecisionRifling</li>
             <li>WeazelPowerArmor</li>
         </prerequisites>
         <researchViewX>3</researchViewX>

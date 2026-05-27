@@ -12,7 +12,7 @@
         <description>대상에게서 에센스를 추출합니다.</description>
         <workerClass>AddWeazelSurgern.Recipe_ExtractEssence</workerClass>
         <jobString>에센스 추출 중.</jobString>
-        <workAmount>500</workAmount>
+        <workAmount>600</workAmount>
         <hideBodyPartNames>true</hideBodyPartNames>
         <targetsBodyPart>false</targetsBodyPart>
         <isViolation>true</isViolation>

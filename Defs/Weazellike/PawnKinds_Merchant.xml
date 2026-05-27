@@ -135,7 +135,7 @@
             <li>W_Guard</li>
 		</weaponTags>
         <weaponMoney>
-			<min>135</min>
+			<min>480</min>
 			<max>500</max>
 		</weaponMoney>
         <techHediffsChance>0.0</techHediffsChance>

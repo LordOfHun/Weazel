@@ -10,13 +10,43 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadA2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headA2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadA3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headA3</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadB</defName>
         <graphicPath>Weazellike/Heads/Weazel_headB</graphicPath>
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadB2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headB2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadB3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headB3</graphicPath>
+    </HeadTypeDef>
+ 
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadC</defName>
         <graphicPath>Weazellike/Heads/Weazel_headC</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadC2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headC2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadC3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headC3</graphicPath>
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
@@ -25,8 +55,28 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadD2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headD2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadD3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headD3</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadE</defName>
         <graphicPath>Weazellike/Heads/Weazel_headE</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadE2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headE2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadE3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headE3</graphicPath>
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
@@ -35,8 +85,28 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadF2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headF2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadF3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headF3</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadG</defName>
         <graphicPath>Weazellike/Heads/Weazel_headG</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadG2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headG2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadG3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headG3</graphicPath>
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
@@ -45,8 +115,28 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadH2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headH2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadH3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headH3</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadI</defName>
         <graphicPath>Weazellike/Heads/Weazel_headI</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadI2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headI2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadI3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headI3</graphicPath>
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
@@ -55,12 +145,42 @@
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadJ2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headJ2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadJ3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headJ3</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadK</defName>
         <graphicPath>Weazellike/Heads/Weazel_headK</graphicPath>
     </HeadTypeDef>
 
     <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadK2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headK2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadK3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headK3</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
         <defName>WeazelHeadL</defName>
         <graphicPath>Weazellike/Heads/Weazel_headL</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadL2</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headL2</graphicPath>
+    </HeadTypeDef>
+
+    <HeadTypeDef ParentName="Infinity_MaleHeadtypeBase">
+        <defName>WeazelHeadL3</defName>
+        <graphicPath>Weazellike/Heads/Weazel_headL3</graphicPath>
     </HeadTypeDef>
 </Defs>

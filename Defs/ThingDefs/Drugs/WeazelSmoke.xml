@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="MakeableDrugBase">
         <defName>Weazel_EssenceSmokeleaf</defName>
-        <label>에센스 시가</label>
+        <label>에센스 블로</label>
         <description>에센스 연기를 흡인할 수 있게 만든 연초입니다.</description>
         <descriptionHyperlinks>
             <HediffDef>EssenceSmokeleafHigh</HediffDef>
@@ -16,7 +16,7 @@
         <rotatable>false</rotatable>
         <statBases>
         <WorkToMake>450</WorkToMake>
-        <MarketValue>11</MarketValue>
+        <MarketValue>13</MarketValue>
         <Mass>0.05</Mass>
         <Flammability>1.3</Flammability>
         </statBases>

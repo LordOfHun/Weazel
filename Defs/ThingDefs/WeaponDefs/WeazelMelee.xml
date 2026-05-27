@@ -9,15 +9,13 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>6000</WorkToMake>
-            <Mass>8</Mass>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>4</Mass>
         </statBases>
         <costList>
-            <Steel>300</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>40</Steel>
         </costList>
         <recipeMaker>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -25,6 +23,7 @@
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
+            <researchPrerequisite>Smithing</researchPrerequisite>
         </recipeMaker>
         <weaponClasses>
             <li>Melee</li>
@@ -71,28 +70,20 @@
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
-            <WorkToMake>100</WorkToMake>
+            <MarketValue>200</MarketValue>
+            <WorkToMake>9000</WorkToMake>
             <Mass>5</Mass>
         </statBases>
-        <!--
-        <costList>
-            <Steel>300</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
-        </costList> 
-        -->
         <stuffCategories>
-        <li>Metallic</li> </stuffCategories>
-        <costStuffCount>10</costStuffCount>
-        <costList>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>90</costStuffCount>
         <comps>
             <li>
                 <compClass>CompColorable</compClass>
             </li>
         </comps>
         <recipeMaker>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -100,6 +91,7 @@
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
+            <researchPrerequisite>Smithing</researchPrerequisite>
         </recipeMaker>
         <weaponClasses>
             <li>Melee</li>
@@ -152,23 +144,20 @@
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
-            <WorkToMake>100</WorkToMake>
+            <MarketValue>60</MarketValue>
+            <WorkToMake>1500</WorkToMake>
             <Mass>0.85</Mass>
         </statBases>
         <stuffCategories>
             <li>Metallic</li>
         </stuffCategories>
-        <costStuffCount>10</costStuffCount>
-        <costList>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
+        <costStuffCount>25</costStuffCount>
         <comps>
             <li>
                 <compClass>CompColorable</compClass>
             </li>
         </comps>
         <recipeMaker>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -176,6 +165,7 @@
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
+            <researchPrerequisite>Smithing</researchPrerequisite>
         </recipeMaker>
         <weaponClasses>
             <li>Melee</li>
@@ -233,23 +223,20 @@
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
-            <WorkToMake>100</WorkToMake>
-            <Mass>1.25</Mass>
+            <MarketValue>75</MarketValue>
+            <WorkToMake>1100</WorkToMake>
+            <Mass>3</Mass>
         </statBases>
         <stuffCategories>
             <li>Stony</li>
         </stuffCategories>
-        <costStuffCount>10</costStuffCount>
-        <costList>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
+        <costStuffCount>40</costStuffCount>
         <comps>
             <li>
                 <compClass>CompColorable</compClass>
             </li>
         </comps>
         <recipeMaker>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -257,6 +244,7 @@
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
+            <researchPrerequisite>Smithing</researchPrerequisite>
         </recipeMaker>
         <weaponClasses>
             <li>Melee</li>
@@ -304,23 +292,23 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <MarketValue>800</MarketValue>
-            <WorkToMake>100</WorkToMake>
-            <Mass>8</Mass>
+            <MarketValue>200</MarketValue>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>12</Mass>
         </statBases>
         <costList>
-            <Steel>300</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>100</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
         </costList> 
         <recipeMaker>
-            <researchPrerequisite>PoweredArmor</researchPrerequisite>
             <skillRequirements>
-                <Crafting>3</Crafting>
+                <Crafting>4</Crafting>
             </skillRequirements>
             <displayPriority>400</displayPriority>
             <recipeUsers>
                 <li>TableMachining</li>
             </recipeUsers>
+            <researchPrerequisite>Machining</researchPrerequisite>
         </recipeMaker>
         <weaponClasses>
             <li>Melee</li>
@@ -328,34 +316,26 @@
         <equippedAngleOffset>-40</equippedAngleOffset>
         <tools>
             <li>
-                <label>Handle</label>
-                <capacities>
-                    <li>Poke</li>
-                </capacities>
-                <power>13</power>
-                <cooldownTime>2</cooldownTime>
-                <armorPenetration>0.12</armorPenetration>
-                <soundMeleeHit>MeleeHit_Metal_Blunt</soundMeleeHit>
-            </li>
-            <li>
                 <label>Head</label>
                 <capacities>
                     <li>Cut</li>
                 </capacities>
                 <power>28</power>
-                <cooldownTime>2</cooldownTime>
+                <cooldownTime>5</cooldownTime>
                 <armorPenetration>0.30</armorPenetration>
                 <soundMeleeHit>MeleeHit_BladelinkMonoSword</soundMeleeHit>
+                <chanceFactor>0.5</chanceFactor>
             </li>
             <li>
                 <label>Saw</label>
                 <capacities>
                     <li>Cut</li>
                 </capacities>
-                <power>33</power>
-                <cooldownTime>2.4</cooldownTime>
-                <armorPenetration>0.36</armorPenetration>
+                <power>6</power>
+                <cooldownTime>0.2</cooldownTime>
+                <armorPenetration>0.25</armorPenetration>
                 <soundMeleeHit>Recipe_CircularSaw_Off</soundMeleeHit>
+                <chanceFactor>0.5</chanceFactor>
             </li>
         </tools>
         <weaponTags>

@@ -20,17 +20,41 @@
             <alienPartGenerator>
                 <headTypes>
                     <li>WeazelHeadA</li>
+                    <li>WeazelHeadA2</li>
+                    <li>WeazelHeadA3</li>
                     <li>WeazelHeadB</li>
+                    <li>WeazelHeadB2</li>
+                    <li>WeazelHeadB3</li>
                     <li>WeazelHeadC</li>
+                    <li>WeazelHeadC2</li>
+                    <li>WeazelHeadC3</li>
                     <li>WeazelHeadD</li>
+                    <li>WeazelHeadD2</li>
+                    <li>WeazelHeadD3</li>
                     <li>WeazelHeadE</li>
+                    <li>WeazelHeadE2</li>
+                    <li>WeazelHeadE3</li>
                     <li>WeazelHeadF</li>
+                    <li>WeazelHeadF2</li>
+                    <li>WeazelHeadF3</li>
                     <li>WeazelHeadG</li>
+                    <li>WeazelHeadG2</li>
+                    <li>WeazelHeadG3</li>
                     <li>WeazelHeadH</li>
+                    <li>WeazelHeadH2</li>
+                    <li>WeazelHeadH3</li>
                     <li>WeazelHeadI</li>
+                    <li>WeazelHeadI2</li>
+                    <li>WeazelHeadI3</li>
                     <li>WeazelHeadJ</li>
+                    <li>WeazelHeadJ2</li>
+                    <li>WeazelHeadJ3</li>
                     <li>WeazelHeadK</li>
+                    <li>WeazelHeadK2</li>
+                    <li>WeazelHeadK3</li>
                     <li>WeazelHeadL</li>
+                    <li>WeazelHeadL2</li>
+                    <li>WeazelHeadL3</li>
                 </headTypes>
                 
                 <bodyTypes>
@@ -139,23 +163,23 @@
                             <south>
                                 <bodyTypes>
                                     <Female>(-0.028,-0.12)</Female>
-                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(-0.415,0.25)</Baby>
-                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.415,0.39)</Child>
+                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(0.0096,0.35)</Baby>
+                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.0225,0.267)</Child>
                                 </bodyTypes>
                             </south>
                             <north>
                                 <layerOffset>-1</layerOffset>
                                 <bodyTypes>
                                     <Female>(-0.0032,0.042)</Female>
-                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(-0.0,0.70)</Baby>
-                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.0,0.75)</Child>
+                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(0.0096,0.35)</Baby>
+                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.0225,0.267)</Child>
                                 </bodyTypes>
                             </north>
                             <east>
                                 <bodyTypes>
                                     <Female>(0.16,0.1447)</Female>
-                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(-0.57,0.40)</Baby>
-                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.57,0.40)</Child>
+                                    <Baby MayRequire="Ludeon.Rimworld.Biotech">(0.048,0.37)</Baby>
+                                    <Child MayRequire="Ludeon.Rimworld.Biotech">(-0.055,0.28)</Child>
                                 </bodyTypes>
                             </east>
                         </offsets>
@@ -181,23 +205,23 @@
                             <south>
                                 <bodyTypes>
                                     <Female>(0.016,-0.12)</Female>
-                                    <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.415,0.25)</Baby>
-                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(-0.415,0.39)</Child>
+                                    <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.0096,-0.35)</Baby>
+                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.0225,-0.267)</Child>
                                 </bodyTypes>
                             </south>
                             <north>
                                 <layerOffset>-1</layerOffset>
                                 <bodyTypes>
                                     <Female>(-0.0032,0.041)</Female>
-                                    <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.0,0.70)</Baby>
-                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(-0.0,0.75)</Child>
+                                    <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.0096,-0.35)</Baby>
+                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.0225,-0.267)</Child>
                                 </bodyTypes>
                             </north>
                             <east>
                                 <bodyTypes>
                                     <Female>(0.016,-0.1447)</Female>
-                                    <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.55,0.40)</Baby>
-                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(-0.57,0.40)</Child>
+                                    <Baby MayRequire="Ludeon.RimWorld.Biotech">(-0.048,-0.37)</Baby>
+                                    <Child MayRequire="Ludeon.RimWorld.Biotech">(0.055,-0.28)</Child>
                                 </bodyTypes>
                             </east>
                         </offsets>
@@ -215,9 +239,9 @@
                 </maleFertilityAgeFactor>
                 <femaleFertilityAgeFactor>
                     <points>
-                        <li>(10, 0)</li>
-                        <li>(16, 1)</li>
-                        <li>(28, 1)</li>
+                        <li>(8, 0)</li>
+                        <li>(10, 1.1)</li>
+                        <li>(18, 2)</li>
                         <li>(35, 0.5)</li>
                         <li>(40, 0.1)</li>
                         <li>(45, 0.02)</li>
@@ -436,17 +460,17 @@
                 <!--작은아이(아이몸, 머리낮음)-->
                 <li MayRequire="Ludeon.RimWorld.Biotech">
                     <def>HumanlikePreTeenager</def>
-                    <minAge>8</minAge>
+                    <minAge>4</minAge>
                 </li>
                 <!--큰아이(아이몸, 머리들림, 성인 옷 못입음,13세에 연구제련 작업해금)-->
                 <li>
                     <def>HumanlikeTeenager</def>
-                    <minAge>10</minAge>
+                    <minAge>6</minAge>
                 </li>
                 <!--청소년(성인 몸,머리낮음, 성인 옷 착용가능)-->
                 <li>
                     <def>HumanlikeAdult</def>
-                    <minAge>12</minAge>
+                    <minAge>10</minAge>
                 </li>
                 <!--성인(성인 몸,머리들림)-->
             </lifeStageAges>

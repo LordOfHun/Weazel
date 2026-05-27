@@ -35,8 +35,8 @@
             <li>BuildingsProduction</li>
         </thingCategories>
         <costList>
-            <Steel>340</Steel>
-            <ComponentIndustrial>12</ComponentIndustrial>
+            <Steel>200</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
         </costList>
         <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
         <canOverlapZones>false</canOverlapZones>

@@ -22,7 +22,7 @@
     <castEdgeShadows>true</castEdgeShadows>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
     <costList>
-      <Steel>100</Steel>
+      <Steel>125</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
