@@ -28,7 +28,7 @@
     <!-- 위젤 플레이어 정착민 -->
     <PawnKindDef ParentName="WeazelPawnKind">
         <defName>Weazel_Colonist</defName>
-        <label>Weazel colonist</label>
+        <label>위젤 정착민</label>
         <defaultFactionType>Weazel_PlayerFaction</defaultFactionType>
         <backstoryFiltersOverride>
             <li>

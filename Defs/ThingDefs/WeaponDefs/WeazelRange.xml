@@ -2,7 +2,7 @@
 <Defs>    
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Geckco</defName>
-        <label>Geckco</label>
+        <label>위젤 게코 리볼버</label>
         <description>작고 아담한 사이즈의 이 리볼버는 휴대성을 위해 제작되었습니다. 갑작스러운 돌발상황 때 빠르게 사용할 수 있는 작은 사이즈이지만 큰 구경의 탄환 덕분에 대인전 상황 때 신뢰할 수 있는 저지력을 기대할 수 있습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Geckco</texPath>
@@ -16,7 +16,7 @@
 			<AccuracyShort>0.75</AccuracyShort>
 			<AccuracyMedium>0.55</AccuracyMedium>
 			<AccuracyLong>0.40</AccuracyLong>
-			<RangedWeapon_Cooldown>0.43</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
         </statBases>
         <costList>
             <Steel>30</Steel>
@@ -77,7 +77,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Viper</defName>
-        <label>Viper</label>
+        <label>위젤 바이퍼</label>
         <description>위젤의 기동성을 위해 제작된 바이퍼는 짧은 사이즈에 가벼운 무게 그리고 빠른 연사력이 상징입니다. 가까운 대상에게 빠르게 많은 양의 총알을 발사하는 바이퍼는 날렵함을 이용해 빠르게 접근하는 위젤들의 전투 방식을 상징하는 총기입니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Viper</texPath>
@@ -153,7 +153,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Mamba</defName>
-        <label>Mamba</label>
+        <label>위젤 맘바</label>
         <description>맘바 라이플은 위젤들 사이에 가장 널리 보급된 총기입니다. 준수한 사거리와 연사력 그리고 정확도는 어떤 상황도 대처할 수 있는 맘바의 큰 장점입니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Mamba</texPath>
@@ -228,7 +228,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Anaconda</defName>
-        <label>Anaconda</label>
+        <label>위젤 아나콘다</label>
         <description>적들을 제압하기위해 제작된 아나콘다는 빠르게 탄을 퍼부어 적들의 이동을 저지하기위해 설계되었습니다.\n구경을 작아 높은 살상력을 기대하긴 힘들지만 빠르게 화망을 형성할 수 있다는 장점은 인간은 물론 그 이상의 크기의 적들도 쉽게 제압할 수 있습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Anaconda</texPath>
@@ -303,7 +303,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Caiman</defName>
-        <label>Caiman</label>
+        <label>위젤 카이만</label>
         <description>리볼버를 거대하게 만든 인상을 주는 카이만은 50구경 탄 6발을 장전한 장거리용 라이플입니다.\n가장 골치아픈 적을 장거리에서 죽이기위해 설계된 카이만은 긴 사거리, 높은 관통력과 높은 피해량과 함께 신뢰할 수 있는 명중률까지 보장합니다. 하지만 그만큼 높은 반동과 큰 탄환으로 인한 느린 장전 속도로 연사력은 현저하게 떨어지며 이 모든 단점이 눈에 보이지않을 정도로 큰 단점은 간신히 들고 이동할 수 있는 무거운 무게입니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Caiman</texPath>
@@ -376,7 +376,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Caiman_H</defName>
-        <label>Caiman_H</label>
+        <label>위젤 카이만 H</label>
         <description>카이만의 총열을 2배로 연장시킨 버전입니다. 그만큼 무게 또한 2배가 되었기에 일반적으로는 장비할 수 없기 때문에 파워 아머 착용자들이 장비합니다.\n\n길어진 총열만큼 사거리가 늘어났으며 그만큼 강한 파괴력을 기대할 수 있게 되었습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Caiman_H</texPath>
@@ -449,7 +449,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_NineBarrelShotgun</defName>
-        <label>NineBarrelShotgun</label>
+        <label>위젤 나인배럴샷건</label>
         <description>2개도 아니고 3개도 아닌 9개의 총구를 가진 샷건입니다. 효율을 떠나 오직 로망을 위해 설계된 이 샷건은 9개의 총구에서 화염처럼 샷건 펠릿들을 뿜어내어 근거리에 적들을 빠르게 제압하고 큰 피해를 입힐 수 있습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/NineBarrelShotgun</texPath>
@@ -527,7 +527,7 @@
     
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Alligator</defName>
-        <label>Alligator</label>
+        <label>위젤 앨리게이터</label>
         <description>무겁지만 2개의 기관포를 하나로 합쳐 25mm 고폭탄 빠르게 연사할 수 있는 강력한 중화기입니다.\n높은 화력과 폭발력은 보병을 걸어다니는 장갑차로 만들 수 있는 수준이지만 무지막지한 반동과 너무 무거운 무게 때문에 일반적으로 G.A.M 인공근육의 섬세한 수축과 이완을 통해 이것을 견뎌내어야만 사용할 수 있습니다.\n이런 이유 때문에 엘리게이터는 파워 아머 착용자를 위해 설계되었습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Alligator</texPath>
@@ -596,7 +596,7 @@
 
     <ThingDef ParentName="BaseWeazelKindMakeableGun">
         <defName>Weazel_Taipan</defName>
-        <label>Taipan</label>
+        <label>위젤 타이판</label>
         <description>무지막지한 반동과 너무 무거운 무게 때문에 일반적으로 G.A.M 인공근육의 섬세한 수축과 이완을 통해 이것을 견뎌내어야만 사용할 수 있습니다.\n이런 이유 때문에 타이판은 파워 아머 착용자를 위해 설계되었습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Taipan</texPath>

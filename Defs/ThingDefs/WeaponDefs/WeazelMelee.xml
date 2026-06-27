@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
         <defName>Weazel_BearSlam</defName>
-        <label>BearSlam</label>
+        <label>위젤 베어슬램</label>
         <description>곰의 거대한 앞발을 형성화한 기계식 제압 무기입니다.\n\n기계적으로 작동되는 원리인 베어 슬램은 포로의 제압을 위해 설계되었습니다.  넓은 면적으로 적을 후려쳐 기절시키는 '압도적 타격'이 주 목적입니다. 손가락 끝에 장착된 4개의 예리한 발톱 날을 이용해 필요 시 치명적인 자상을 입히거나 출혈을 유도할 수도 있습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/BearSlam</texPath>
@@ -62,7 +62,7 @@
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
         <defName>Weazel_Grizzly</defName>
-        <label>Grizzly</label>
+        <label>위젤 그리즐리</label>
         <description>넓은 면의 날을 가진 다목적 펄션입니다. 위젤의 날렵한 움직임에 맞춰 가볍지만 넓은 면 덕분에 강한 절단력을 기대할 수 있어 많은 위젤들이 애용하는 근접무기입니다.\n그리즐리는 전투뿐만 아니라 나무를 베거나 풀을 베는 등 다양한 용도로 사용이 용의한 다목적 도구이기도합니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Grizzly</texPath>
@@ -136,7 +136,7 @@
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
         <defName>Weazel_Ermine</defName>
-        <label>Ermine</label>
+        <label>위젤 어민</label>
         <description>어민은 작지만 가볍고 납작하며 손잡이 끝 부분에 있는 구멍을 이용해 빠르게 꺼내어 공격할 수 있게 설계된 단검입니다.\n\n베기보단 찌르는 것에 초점이 맞춰진 어민은 작지만 날렵한 위젤들에게 어울리는 무기입니다. 보통 위젤들은 표적에게 빠르게 달려들어 급소를 찌르는 용도로 사용합니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Ermine</texPath>
@@ -215,7 +215,7 @@
     
     <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
         <defName>Weazel_Badger</defName>
-        <label>Badger</label>
+        <label>위젤 벳져</label>
         <description>140cm의 긴 둔기인 벳져는 설계에서 위젤의 목적성을 엿볼 수 있는 무기입니다.\n\n자신보다 거대한 대상을 살상하지 않고 '포획'하기 위해 설계되었습니다. 위젤의 평균 키보다 긴 길이를 활용해, 양손으로 원심력을 실어 타격함으로써 대형 적 개체를 효과적으로 무력화하고 제압하는 데 최적화되어 있습니다.</description>
         <graphicData>
             <texPath>Things/Weapons/Badger</texPath>
@@ -285,7 +285,7 @@
 
     <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
         <defName>Weazel_ChihuahuaChainsaw</defName>
-        <label>ChihuahuaChainsaw</label>
+        <label>위젤 치와와전기톱</label>
         <description>130cm의 거대한 전기톱인 치와와는 위젤들이 개발한 대검에 가깝습니다. 시동을 거는 순간 요란한 소리와 진동하는 모습은 한마리의 치와와와 같습니다.\n보통 육탄전에 매료된 위젤들은 치와와를 매우 선호합니다. 이는 성능보단 공포에 질린 적들의 모습을 즐기는 일종의 오락을 위한 것에 가깝습니다. 위젤들은 치와와를 전기톱처럼 쓰는 것보단 허공에 대검처럼 휘둘러 적들이 공포에 질려하는 모습을 보는 용도로 곧잘 사용합니다.\n\n치와와는 이름과 달리 생긴 것처럼 무게가 어느정도 나가며 맨 몸으로 사용하는 것보단 파워 아머를 착용 후 사용되는 것이 권장됩니다.</description>
         <graphicData>
             <texPath>Things/Weapons/ChihuahuaChainsaw</texPath>

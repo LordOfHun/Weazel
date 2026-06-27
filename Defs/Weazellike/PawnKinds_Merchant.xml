@@ -24,7 +24,7 @@
 			<max>310</max>
 		</apparelMoney>
         <apparelRequired>
-            <li>Weazel_Bodysuit_A</li>
+            <li>Weazel_Bodysuit_Warder</li>
 		</apparelRequired>
         <weaponTags>
             <li>W_Recruit</li>
@@ -75,7 +75,7 @@
 			<max>310</max>
 		</apparelMoney>
         <apparelRequired>
-            <li>Weazel_Bodysuit_A</li>
+            <li>Weazel_Bodysuit_Warder</li>
 		</apparelRequired>
         <weaponTags>
             <li>W_Recruit</li>

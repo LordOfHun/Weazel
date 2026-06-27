@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="BuildingBase">
         <defName>WeazelGAMIncubation</defName>
-        <label>G.A.M Incubation</label>
+        <label>G.A.M 배양기</label>
         <description>에센스를 소모하여 인공근육을 제작가능한 구조물입니다.</description>
         <researchPrerequisites><li>WeazelGAMIncubation</li></researchPrerequisites>
         <graphicData>

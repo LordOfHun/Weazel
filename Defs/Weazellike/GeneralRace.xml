@@ -3,7 +3,7 @@
     <AlienRace.ThingDef_AlienRace ParentName="Weazel_PawnBase">
         <defName>Weazel</defName>
         <label>Weazel</label>
-        <description>위젤이다.</description>
+        <description>인공적으로 복제된 창조물로 위젤은 원래 존재하지 않았던 종족입니다.\n이들 대부분은 호전적인데, 이는 복제된 원본 개체의 성격을 그대로 따르기 때문입니다.\m\m이 종족은 유전적으로 모두 암컷이며, 평균 120cm의 아주 교활하고 재빠른 종족입니다.\n위젤이란 종족은 우주에서 흔히 볼 수 있으며 변방계를 중심으로 약탈을 특히 정착민들을 납치하는 것을 선호합니다. 이 이유는 '에센스'라고 불리는 위젤이 아닌 타 종족에게서 추출해낼 수 있는 특수한 유전 물질 때문입니다.\n에센스는 위젤 사회에 매우 중요한 자원이며 위젤은 좋은 품질의 에센스를 추출하기위해 종족 전체가 해적과 같은 삶을 살아갑니다.</description>
         <alienRace>
             <generalSettings>
                 <maleGenderProbability>0</maleGenderProbability>

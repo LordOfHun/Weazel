@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef ParentName="BenchBase">
     <defName>WeazelEssenceWeaver</defName>
-    <label>Essence Weaver</label>
+    <label>에센스 방직기</label>
     <description>에센스를 꼬아내어 실크의 형태로 방직할 수 있습니다.</description>
     <thingClass>Building_WorkTable</thingClass>
     <recipeMaker>

@@ -31,8 +31,8 @@
             </points>
         </raidLootValueFromPointsCurve>
         <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
-        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <factionNameMaker>NamerFactionWeazel</factionNameMaker>
+        <settlementNameMaker>NamerSettlementWeazel</settlementNameMaker>
         <melaninRange>0</melaninRange>
         <startingResearchTags>
             <li>ClassicStart</li>
@@ -62,8 +62,8 @@
         <!-- 수장의 직함 -->
         <leaderTitle>XCC Boss</leaderTitle>
         <factionIconPath>Icon/Weazel_icon</factionIconPath>
-        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <factionNameMaker>NamerFactionWeazel</factionNameMaker>
+        <settlementNameMaker>NamerSettlementWeazel</settlementNameMaker>
         <melaninRange>0</melaninRange>
         <techLevel>Spacer</techLevel>
         <backstoryCategories>
@@ -321,4 +321,32 @@
         <naturalEnemy>true</naturalEnemy>
         <factionIconPath>Icon/Weazel_icon_XCC</factionIconPath>
     </FactionDef>
+    
+    <RulePackDef>
+        <defName>NamerFactionWeazel</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->XCC 약탈부대</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <RulePackDef>
+        <defName>NamerSettlementWeazel</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->XCC-008 약탈대대</li>
+                <li>r_name->XCC-101 약탈대대</li>
+                <li>r_name->XCC-108 약탈대대</li>
+                <li>r_name->XCC-124 약탈대대</li>
+                <li>r_name->XCC-201 약탈대대</li>
+                <li>r_name->XCC-221 약탈대대</li>
+                <li>r_name->XCC-224 약탈대대</li>
+                <li>r_name->XCC-230 약탈대대</li>
+                <li>r_name->XCC-372 약탈대대</li>
+                <li>r_name->XCC-401 약탈대대</li>
+                <li>r_name->XCC-404 약탈대대</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
 </Defs>
