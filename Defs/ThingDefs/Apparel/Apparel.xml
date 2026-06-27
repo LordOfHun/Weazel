@@ -272,60 +272,6 @@
         </apparel>
     </ThingDef>
 
-    <!-- 위젤 바디슈트 (간수복) -->
-    <ThingDef ParentName="Weazel_ApparelBase">
-        <defName>Weazel_Bodysuit_Warder</defName>
-        <description>위젤 간수들이 착용하는 바디슈트입니다.</description>
-        <label>위젤 간수 바디슈트</label>
-        <recipeMaker>
-            
-        </recipeMaker>
-        <graphicData>
-            <texPath>Weazellike/Apparel/WeazelBodysuitW</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <costList>
-            <Weazel_EssentialSilk>65</Weazel_EssentialSilk>
-        </costList>
-        <statBases>
-            <MarketValue>290</MarketValue>
-            <MaxHitPoints>130</MaxHitPoints>
-            <WorkToMake>2700</WorkToMake>
-            <Mass>2.2</Mass>
-            <Flammability>0.6</Flammability>
-            <ArmorRating_Sharp>0.28</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.6</ArmorRating_Heat>
-            <Insulation_Cold>14.4</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>4</EquipDelay>
-        </statBases>
-        <equippedStatOffsets>
-            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.02</VacuumResistance>
-        </equippedStatOffsets>
-        <apparel>
-            <bodyPartGroups>
-                <li>Torso</li>
-                <li>Neck</li>
-                <li>Shoulders</li>
-                <li>Arms</li>
-                <li>Legs</li>
-            </bodyPartGroups>
-            <wornGraphicPath>Weazellike/Apparel/WeazelBodysuitW</wornGraphicPath>
-            <drawData>
-                <defaultData>
-                    <offset>(0,0.001,0.08)</offset>
-                </defaultData>
-            </drawData>
-            <layers>
-                <li>OnSkin</li>
-            </layers>
-            <defaultOutfitTags>
-                <li>Soldier</li>
-            </defaultOutfitTags>
-        </apparel>
-    </ThingDef>
-    
     <!-- 위젤 장교 바디슈트 -->
     <ThingDef ParentName="Weazel_ApparelBase">
         <defName>Weazel_Bodysuit_Officer</defName>
@@ -611,6 +557,9 @@
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
+            <tags>
+                <li>Weazel_Helmet</li>
+            </tags>
         </apparel>
     </ThingDef>
 
@@ -675,6 +624,9 @@
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
+            <tags>
+                <li>Weazel_Helmet</li>
+            </tags>
         </apparel>
         <!-- 장착자 작위 제한
         <royaltyRequirements>
@@ -743,6 +695,9 @@
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
+            <tags>
+                <li>Weazel_Helmet</li>
+            </tags>
         </apparel>
     </ThingDef>
 
@@ -807,6 +762,9 @@
             <defaultOutfitTags>
                 <li>Soldier</li>
             </defaultOutfitTags>
+            <tags>
+                <li>Weazel_Helmet</li>
+            </tags>
         </apparel>
     </ThingDef>
 

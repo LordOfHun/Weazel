@@ -46,6 +46,16 @@ namespace MyWeazelMod // 본인의 네임스페이스 (중요하지 않지만 �
                 for (int i = 0; i < worn.Count; i++)
                 {
                     var app = worn[i].def?.apparel;
+                    if (app != null && app.tags != null)
+                    {
+                        if (app.tags.Contains("Weazel_Helmet"))
+                        {
+                            // 헬멧을 썼으므로 결과를 false로 강제 변경
+                            __result = false;
+                            return;
+                        }
+                    }
+                    /*
                     if (app?.bodyPartGroups != null)
                     {
                         if (app.bodyPartGroups.Contains(BodyPartGroupDefOf.UpperHead))
@@ -55,6 +65,7 @@ namespace MyWeazelMod // 본인의 네임스페이스 (중요하지 않지만 �
                             return;
                         }
                     }
+                    */
                 }
             }
         }

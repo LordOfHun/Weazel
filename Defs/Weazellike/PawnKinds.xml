@@ -5,6 +5,7 @@
         <race>Weazel</race>
         <combatPower>50</combatPower>
         <isFighter>true</isFighter>
+        <nameMaker>WeazelNameMaker</nameMaker>
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <forceNormalGearQuality>true</forceNormalGearQuality>
         <xenotypeSet MayRequire="Ludeon.RimWorld.Biotech">
