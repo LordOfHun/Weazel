@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>Weazel Mode</name>
-    <author>WhereWolf</author>
+    <author>Wherewolf</author>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
+    <packageId>Wherewolf.WeazelRaceMod</packageId>
     <description>
         인공적으로 복제된 창조물로 위젤은 원래 존재하지 않았던 종족입니다.
         이들 대부분은 호전적인데, 이는 복제된 원본 개체의 성격을 그대로 따르기 때문입니다.

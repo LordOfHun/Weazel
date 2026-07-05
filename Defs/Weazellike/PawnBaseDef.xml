@@ -10,7 +10,7 @@
         <hasTooltip>true</hasTooltip>
         <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
         <butcherProducts>
-            <!-- 도축시 상시 드랍 품목 -->
+            
         </butcherProducts>
         <statBases>
             <Mass>50</Mass>

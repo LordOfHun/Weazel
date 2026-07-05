@@ -262,7 +262,7 @@
                 <head>Weazellike/Heads/</head>
                 <body>Weazellike/Bodies/</body>
                 <swaddle>Weazellike/Blank/Blank</swaddle>
-                <skeleton>Things/Pawn/Humanlike/Bodies/Dessicated/Dessicated_Female</skeleton>
+                <skeleton>Weazellike/Skeleton/Dessicated_Weazel</skeleton>
             </graphicPaths>
 
             <styleSettings>
@@ -429,7 +429,7 @@
             <intelligence>Humanlike</intelligence>
             <makesFootprints>true</makesFootprints>
             <lifeExpectancy>80</lifeExpectancy>
-            <leatherDef>Leather_Human</leatherDef>
+            <leatherDef>Leather_Light</leatherDef>
             <nameCategory>HumanStandard</nameCategory>
             <hasGenders>true</hasGenders>
             <body>Weazel</body>

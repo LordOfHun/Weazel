@@ -130,7 +130,7 @@
         </costList>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
-            <WorkToMake>1600</WorkToMake>
+            <WorkToMake>11000</WorkToMake>
             <Mass>0.75</Mass>
             <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
             <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
@@ -164,6 +164,12 @@
                 <part>Torso</part>
             </li>
         </comps>
+        <thingCategories>
+            <li>WeazelApparel</li>
+        </thingCategories>
+        <tradeTags>
+            <li>Clothing</li>
+        </tradeTags>
     </ThingDef>
 
     <HediffDef>

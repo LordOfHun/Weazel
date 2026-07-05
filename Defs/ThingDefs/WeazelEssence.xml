@@ -30,7 +30,7 @@
         </graphicData>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
-            <MarketValue>1000</MarketValue>
+            <MarketValue>260</MarketValue>
             <Mass>0.005</Mass>
             <Flammability>0.7</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>
@@ -88,7 +88,7 @@
         </graphicData>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
-            <MarketValue>1000</MarketValue>
+            <MarketValue>130</MarketValue>
             <Mass>0.005</Mass>
             <Flammability>0.7</Flammability>
             <DeteriorationRate>2.0</DeteriorationRate>

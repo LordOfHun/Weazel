@@ -25,7 +25,7 @@ namespace AddWeazelSurgern
             if (billDoer == null || billDoer.def.defName != "Weazel")
             {
                 // 의사가 위즐이 아니면 수술 중단 및 메시지 출력
-                Messages.Message("이 수술은 위즐 종족만 수행할 수 있습니다.", MessageTypeDefOf.RejectInput);
+                Messages.Message("이 수술은 위젤 종족만 수행할 수 있습니다.", MessageTypeDefOf.RejectInput);
                 
                 // 수술 재료를 돌려주고 수술 중단 (실패 처리와 비슷함)
                 return;
