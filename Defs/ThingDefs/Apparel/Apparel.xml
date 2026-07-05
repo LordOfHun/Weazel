@@ -984,7 +984,7 @@
             <Plasteel>190</Plasteel>
             <Weazel_GAM>280</Weazel_GAM> <!--GAM 280-->
             <ComponentIndustrial>6</ComponentIndustrial>
-            <Gold>90</Gold>
+            <Gold>9</Gold>
         </costList>
         <statBases>
             <MarketValue>3930</MarketValue>
