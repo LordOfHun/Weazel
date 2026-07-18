@@ -10,7 +10,7 @@
         </graphicData>
         <statBases>
             <MarketValue>135</MarketValue>
-            <WorkToMake>38000</WorkToMake>
+            <WorkToMake>3800</WorkToMake>
             <Mass>1.2</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
 			<AccuracyShort>0.75</AccuracyShort>
@@ -85,7 +85,7 @@
         </graphicData>
         <statBases>
             <MarketValue>355</MarketValue>
-            <WorkToMake>220000</WorkToMake>
+            <WorkToMake>22000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
 			<AccuracyShort>0.65</AccuracyShort>
@@ -161,7 +161,7 @@
         </graphicData>
         <statBases>
             <MarketValue>480</MarketValue>
-            <WorkToMake>370000</WorkToMake>
+            <WorkToMake>37000</WorkToMake>
             <Mass>2.5</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
 			<AccuracyShort>0.75</AccuracyShort>
@@ -237,7 +237,7 @@
         </graphicData>
         <statBases>
             <MarketValue>425</MarketValue>
-            <WorkToMake>380000</WorkToMake>
+            <WorkToMake>38000</WorkToMake>
             <Mass>6</Mass>
             <AccuracyTouch>0.40</AccuracyTouch>
 			<AccuracyShort>0.60</AccuracyShort>
@@ -312,7 +312,7 @@
         </graphicData>
         <statBases>
             <MarketValue>255</MarketValue>
-            <WorkToMake>440000</WorkToMake>
+            <WorkToMake>44000</WorkToMake>
             <Mass>8.0</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
 			<AccuracyShort>0.78</AccuracyShort>
@@ -385,7 +385,7 @@
         </graphicData>
         <statBases>
             <MarketValue>530</MarketValue>
-            <WorkToMake>110000</WorkToMake>
+            <WorkToMake>11000</WorkToMake>
             <Mass>18</Mass>
             <AccuracyTouch>0.48</AccuracyTouch>
 			<AccuracyShort>0.70</AccuracyShort>
@@ -461,7 +461,7 @@
         </weaponClasses>
         <statBases>
             <MarketValue>405</MarketValue>
-            <WorkToMake>330000</WorkToMake>
+            <WorkToMake>33000</WorkToMake>
             <Mass>10</Mass>
             <AccuracyTouch>0.57</AccuracyTouch>
 			<AccuracyShort>0.64</AccuracyShort>
@@ -536,7 +536,7 @@
         </graphicData>
         <statBases>
             <MarketValue>1200</MarketValue>
-            <WorkToMake>500000</WorkToMake>
+            <WorkToMake>50000</WorkToMake>
             <Mass>20</Mass>
             <AccuracyTouch>0.35</AccuracyTouch>
 			<AccuracyShort>0.48</AccuracyShort>
@@ -605,7 +605,7 @@
         </graphicData>
         <statBases>
             <MarketValue>1106</MarketValue>
-            <WorkToMake>490000</WorkToMake>
+            <WorkToMake>49000</WorkToMake>
             <Mass>20</Mass>
             <AccuracyTouch>0.2</AccuracyTouch>
 			<AccuracyShort>0.25</AccuracyShort>

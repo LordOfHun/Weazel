@@ -9,7 +9,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-            <WorkToMake>10000</WorkToMake>
+            <WorkToMake>1000</WorkToMake>
             <Mass>4</Mass>
         </statBases>
         <costList>
@@ -71,7 +71,7 @@
         </graphicData>
         <statBases>
             <MarketValue>200</MarketValue>
-            <WorkToMake>90000</WorkToMake>
+            <WorkToMake>9000</WorkToMake>
             <Mass>5</Mass>
         </statBases>
         <stuffCategories>
@@ -145,7 +145,7 @@
         </graphicData>
         <statBases>
             <MarketValue>60</MarketValue>
-            <WorkToMake>15000</WorkToMake>
+            <WorkToMake>1500</WorkToMake>
             <Mass>0.85</Mass>
         </statBases>
         <stuffCategories>
@@ -224,7 +224,7 @@
         </graphicData>
         <statBases>
             <MarketValue>75</MarketValue>
-            <WorkToMake>11000</WorkToMake>
+            <WorkToMake>1100</WorkToMake>
             <Mass>3</Mass>
         </statBases>
         <stuffCategories>
@@ -293,7 +293,7 @@
         </graphicData>
         <statBases>
             <MarketValue>200</MarketValue>
-            <WorkToMake>200000</WorkToMake>
+            <WorkToMake>20000</WorkToMake>
             <Mass>12</Mass>
         </statBases>
         <costList>
