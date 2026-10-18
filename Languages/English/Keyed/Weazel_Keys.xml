@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Equipment restrictions -->
+  <Weazel_CantEquip_WeazelOnly>Only Weazels can equip this.</Weazel_CantEquip_WeazelOnly>
+  <Weazel_CantEquip_NeedPowerArmor>Requires Weazel power armor.</Weazel_CantEquip_NeedPowerArmor>
+
+  <!-- Essence extraction surgery -->
+  <Weazel_Surgery_WeazelOnly>Only Weazels can perform this surgery.</Weazel_Surgery_WeazelOnly>
+  <Weazel_Surgery_InvalidTarget>The target must be a prisoner or slave, and cannot be a Weazel.</Weazel_Surgery_InvalidTarget>
+
+  <!-- Essence farm -->
+  <Weazel_EssenceNotRegenerated>The target's Essence has not regenerated yet. Extracting now may kill them.</Weazel_EssenceNotRegenerated>
+</LanguageData>

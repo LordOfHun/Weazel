@@ -2,10 +2,11 @@
 <Defs>
     <ScenarioDef ParentName="ScenarioBase">
         <defName>Weazel_Scenario</defName>
-        <label>Weazel scenario</label>
-        <description>위젤 테스트용 시나리오.</description>
+        <label>위젤 새로운 전진기지</label>
+        <description>명령이 내려졌습니다. 우린 이제 변방계로 내려가 새로운 약탈기지를 건설해야합니다.\n\n무기를 들고 변방계에 무럭 무럭 자라는 정착민들을 약탈하고 에센스를 추출하십시오. 우린 위젤이니까요!</description>
         <scenario>
-            <summary>위젤로 시작할때 백스토리를 체크하기 위한 목적의 시나리오입니다.</summary>
+            <summary>시간이 되었습니다. XCC 약탈대의 명령이 내려졌습니다. 변방계 행성에 정착한 채 약탈당하기만을 기다리는 정착지들을 약탈하라는 명령말입니다. 위젤 XCC 팩토리에서 가장 원본과 가깝고 능력 또한 의심할 필요없는 XCC 더 퍼스트는 현재 우리의 영향권에 있는 모든 변방계에 약탈을 명령했습니다. 본인들의 넘버링에 XCC에 포함된 위젤이라면 이 명령에 무조건 복종해야합니다. 우린 변방계 기꺼이 약탈해주기를 기다리며 무럭 무럭 성장한 정착지를 약탈할 것 입니다. 놈들의 식량도, 자원도 심지어 소중히 간직하고있는 에센스까지 모든 것이 XCC 위젤들의 것 입니다. 우린 놈의 물건을 빼앗을 것이며 살아남은 놈들은 붙잡아 죽을 때까지 에센스를 쥐어짜낼 것 입니다.\n\n--------------\n\n 
+			우리는 약탈을 위해 새로운 베이스를 변방계 행성에 건설하라는 명령을 받았습니다. 약탈 캠프를 만드는 것은 지루하고 현학적일 수 있지만 실적을 쌓을 가장 좋은 수단이 될 것입니다. 무리를 이끌어 주변 약탈지를 정착지를 약탈하고 살아남은 놈들은 에센스를 추출할 가축으로 사용할 수 있겠죠. 이것은 기회입니다. XCC에서 강력한 권력을 가지며 가장 부유한 부대가 될 기회일지도 모릅니다.</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
                 <factionDef>Weazel_PlayerFaction</factionDef>
@@ -103,6 +104,7 @@
                 -->
 
                 <!-- Scatter some things near player start -->
+				
                 <li Class="ScenPart_ScatterThingsNearPlayerStart">
                     <def>ScatterThingsNearPlayerStart</def>
                     <thingDef>Steel</thingDef>

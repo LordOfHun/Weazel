@@ -2,8 +2,8 @@
 <Defs>
     <ThingDef ParentName="MakeableDrugBase">
         <defName>Weazel_EssenceSmokeleaf</defName>
-        <label>에센스 블로</label>
-        <description>에센스 연기를 흡인할 수 있게 만든 연초입니다.</description>
+        <label>에센스 블로우</label>
+        <description>에센스를 연기처럼 흡입할 수 있게 만든 약물입니다. 중독성이 적고 기분을 좋게 만듭니다.\n\n에센스 블로우는 위젤 사회에서 가장 보편적으로 보급되는 일종의 전자 담배와 비슷합니다. 한 천재적인 위젤이 발명한 이 기호품은 에센스를 담배처럼 흡입한다는 사치스러운 모습을 자극시켜 위젤들의 오락용 약물로 보급되었습니다. 약간의 연초와 에센스를 첨가하여, 중독성을 최소화시키고 힘든 업무에 지친 위젤의 활력을 줄 수 있습니다. 많은 위젤은 약탈 후 피로한 상태에서 흡입하는 에센스 블로우 한모금에 로망을 느낍니다.</description>
         <descriptionHyperlinks>
             <HediffDef>EssenceSmokeleafHigh</HediffDef>
             <HediffDef>EssenceSmokeleafTolerance</HediffDef>
@@ -102,8 +102,8 @@
 
     <HediffDef>
         <defName>EssenceSmokeleafHigh</defName>
-        <label>에센스 시가에 취함</label>
-        <labelNoun>에센스 시가 취기</labelNoun>
+        <label>에센스 블로우에 취함</label>
+        <labelNoun>에센스 블로우 취기</labelNoun>
         <description>연기를 타고 흘러들어온 에센스가 혈관에 흐르고있습니다. 기묘한 고양감과 집중력이 느껴집니다.</description>
         <hediffClass>Hediff_High</hediffClass>
         <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
@@ -139,7 +139,7 @@
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>
         <li>
-            <label>에센스 시가 고양</label>
+            <label>에센스 블로우 고양</label>
             <description>에센스가 혈관을 흐르는 이 느낌, 참을 수 없어.</description>
             <baseMoodEffect>10</baseMoodEffect>
         </li>
@@ -148,7 +148,7 @@
 
     <ChemicalDef>
         <defName>EssenceSmokeleaf</defName>
-        <label>에센스 시가</label>
+        <label>에센스 블로우</label>
         <addictionHediff>SmokeleafAddiction</addictionHediff>
         <toleranceHediff>SmokeleafTolerance</toleranceHediff>
         <onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
@@ -159,15 +159,15 @@
     <NeedDef ParentName="DrugAddictionNeedBase">
         <defName>Chemical_EssenceSmokeleaf</defName>
         <needClass>Need_Chemical</needClass>
-        <label>에센스시가</label>
-        <description>에센스 시가로 인한 금단 증상을 피하기 위해, 정기적으로 에센스 시가를 피워줄 필요가 있습니다.</description>
+        <label>에센스 블로우</label>
+        <description>에센스 블로우로 인한 금단 증상을 피하기 위해, 정기적으로 에센스 시가를 피워줄 필요가 있습니다.</description>
         <listPriority>25</listPriority>
     </NeedDef>
 
     <HediffDef ParentName="DrugToleranceBase">
         <defName>EssenceSmokeleafTolerance</defName>
-        <label>에센스 시가 내성</label>
-        <description>에센스 시가에 대한 내성이 쌓인 상태입니다. 이 내성이 심할수록, 같은 효과를 얻기 위해 더 많은 에센스 시가가 필요합니다.</description>
+        <label>에센스 블로우 내성</label>
+        <description>에센스 블로우에 대한 내성이 쌓인 상태입니다. 이 내성이 심할수록, 같은 효과를 얻기 위해 더 많은 에센스 시가가 필요합니다.</description>
         <comps>
         <li Class="HediffCompProperties_SeverityPerDay">
             <severityPerDay>-0.015</severityPerDay>
@@ -198,8 +198,8 @@
 
     <HediffDef ParentName="AddictionBase">
         <defName>EssenceSmokeleafAddiction</defName>
-        <label>에센스 시가 의존증</label>
-        <description>에센스 시가는 중독성이 낮은편이지만 그럼에도 유용하고, 위험합니다.</description>
+        <label>에센스 블로우 의존증</label>
+        <description>에센스 블로우는 중독성이 낮은 편이지만 그럼에도 유용하고, 위험합니다.</description>
         <hediffClass>Hediff_Addiction</hediffClass>
         <chemicalNeed>Chemical_EssenceSmokeleaf</chemicalNeed>
         <comps>
@@ -248,8 +248,8 @@
             <visible>false</visible>
         </li>
         <li>
-            <label>에센스 시가 중독</label>
-            <description>당장 그 빌어먹을 시가 내게 가져와!</description>
+            <label>에센스 블로우 중독</label>
+            <description>한번만 더 빨고 싶다고!</description>
             <baseMoodEffect>-20</baseMoodEffect>
         </li>
         </stages>

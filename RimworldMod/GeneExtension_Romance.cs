@@ -32,7 +32,6 @@ namespace GeneExtension_Romance
 
                 if (otherPawn.genes.HasActiveGene(gene.def))
                 {
-                    Log.Message("대상 존재");
                     bonus *= ext.lovinGeneRomanceChanceFactor;
                 }
             }

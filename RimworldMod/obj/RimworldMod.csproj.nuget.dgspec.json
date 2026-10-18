@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj": {}
+    "C:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj": {
+    "C:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj",
+        "projectUniqueName": "C:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj",
         "projectName": "RimworldMod",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\obj\\",
+        "projectPath": "C:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\RimworldMod.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\SteamLibrary\\steamapps\\common\\RimWorld\\Mods\\Weazel\\RimworldMod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net48": {
+            "framework": "net48",
             "targetAlias": "net48",
             "projectReferences": {}
           }
@@ -40,12 +39,21 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net48": {
+          "framework": "net48",
           "targetAlias": "net48",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

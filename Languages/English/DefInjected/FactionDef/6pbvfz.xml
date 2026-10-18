@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Weazel_PlayerFaction.label>New Beginning</Weazel_PlayerFaction.label>
+  <Weazel_PlayerFaction.description>Your Weazel settlement.</Weazel_PlayerFaction.description>
+  <Weazel_PlayerFaction.pawnSingular>Weazel</Weazel_PlayerFaction.pawnSingular>
+  <Weazel_PlayerFaction.pawnsPlural>Weazels</Weazel_PlayerFaction.pawnsPlural>
+  <Weazel_PlayerFaction.leaderTitle>leader</Weazel_PlayerFaction.leaderTitle>
+  <XCCRaidBase.pawnSingular>Weazel</XCCRaidBase.pawnSingular>
+  <XCCRaidBase.pawnsPlural>Weazels</XCCRaidBase.pawnsPlural>
+  <XCCRaidBase.leaderTitle>XCC Boss</XCCRaidBase.leaderTitle>
+  <XCCRaidBase.label>XCC Raiding Battalion</XCCRaidBase.label>
+  <XCCRaidBase.description>A Weazel raiding battalion cultivated in the XCC cloning facilities.</XCCRaidBase.description>
+</LanguageData>

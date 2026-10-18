@@ -56,7 +56,7 @@ namespace WeazelEssenceFarm
             HediffDef essenceHediff = HediffDef.Named("EssenceReplicating"); 
             if (essenceHediff == null) return false;
 
-			if (prisoner.health.hediffSet.HasHediff(essenceHediff)) return "대상의 에센스가 부족하여 추출시 사망 가능성이 있습니다.";
+			if (prisoner.health.hediffSet.HasHediff(essenceHediff)) return "Weazel_EssenceNotRegenerated".Translate().Resolve();
 			
             if (!prisoner.IsPrisonerOfColony ||
                 !prisoner.guest.PrisonerIsSecure ||

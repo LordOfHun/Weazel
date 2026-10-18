@@ -3,7 +3,7 @@
     <!-- 위젤 바디슈트 (간수복) -->
     <ThingDef ParentName="Weazel_ApparelBase">
         <defName>Weazel_Bodysuit_Warder</defName>
-        <description>위젤 간수들이 착용하는 바디슈트입니다.</description>
+        <description>간수가 착용하는 복장입니다. 주변 노예들의 복종심에 큰 영향을 줍니다.\n\n위젤 사회에서 간수는 힘을 과시할 수 있는 위치입니다. 간수는 보통 에센스를 추출하기위한 수감자를 감독하는 일을 맡으며, 에센스 추출 공정에 첫번째 위치에 있기도 한 계층입니다. 간수가 된 위젤은 자신의 힘에 쉽게 취하는 경향이 있으며 자신에게 제압당하는 수감자들에게서 희열을 느끼곤 합니다. 수감자들 입장에서 간수는 정말 끔찍한 존재일 수 있다는 의미기도 합니다.</description>
         <label>위젤 간수 바디슈트</label>
         <recipeMaker>
             
@@ -41,11 +41,11 @@
                 <li>Legs</li>
             </bodyPartGroups>
             <wornGraphicPath>Weazellike/Apparel/WeazelBodysuitW</wornGraphicPath>
-            <drawData>
+           <!-- <drawData>
                 <defaultData>
                     <offset>(0,0.001,0.08)</offset>
                 </defaultData>
-            </drawData>
+            </drawData>-->
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -57,7 +57,7 @@
     
     <ThingDef ParentName="Weazel_ApparelBase">
         <defName>Weazel_Wardenhat</defName>
-        <description>위젤의 간수가 착용하는 간수모입니다.</description>
+        <description>간수가 착용하는 간수모입니다. 노예들의 복종심에 영향을 줍니다.\n\n간수모입니다. 이 이상 할 이야기가 있을까요?</description>
         <label>위젤 간수모</label>
         <techLevel>Spacer</techLevel>
         <recipeMaker>
@@ -110,7 +110,7 @@
     <ThingDef ParentName="ApparelMakeableBase" MayRequire="Ludeon.RimWorld.Ideology">
         <defName>Weazel_Slavesuit</defName>
         <label>위젤 에센스 노예복</label>
-        <description>위젤의 노하우로 제작된 특수 노예복입니다.\n노예의 노동력에 영향력을 주지않는 선에서 최대의 에센스를 자동으로 추출해냅니다.</description>
+        <description>위젤의 노하우로 제작된 특수 노예복입니다. 노예에게서 주기적으로 에센스를 추출합니다. 추출된 에센스는 바닥에 떨어집니다.\n\n에센스 노예복은 수감자들에게 맞춤으로 제작된 특수 장치가 달린 복장입니다. 가랑이 사이에 달린 장치를 이용해 주기적으로 에센스를 추출하여 등을 통해 배출됩니다. 에센스가 어떤 식으로 추출되는지는 오직 위젤과 착용자만이 알 것 입니다. 노예의 생활을 위한 적절한 착용감은 덤입니다.</description>
         <graphicData>
             <texPath>Weazellike/Apparel/W_Slaveoutfit/Wslaveoutfit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -175,7 +175,7 @@
     <HediffDef>
         <defName>Weazel_Slavesuit</defName>
         <label>에센스 추출</label>
-        <description>신체에 부담이 가지않는 선에서 지속적인 에센스 추출을 당하고있습니다.</description>
+        <description>신체에 부담이 가지않는 선에서 지속적으로 에센스를 추출 당하고 있습니다. 평균 하루에 15개의 에센스를  추출합니다.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <stages>
 

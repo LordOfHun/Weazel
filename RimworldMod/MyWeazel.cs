@@ -81,48 +81,47 @@ namespace MyWeazelMod // 본인의 네임스페이스 (중요하지 않지만 �
             //1. 이미 다른 이유로 장착불가라면
             if (!__result) return;
 
-            //2. 해당무기가 위젤무기라면
-            if (thing.def.weaponTags != null && thing.def.weaponTags.Contains("WeazelWeapon") && pawn.def.defName != "Weazel")
-            {
-                __result = false;
-                cantReason = "다음 종족만 착용 가능합니다. 'Weazel'";
-                return;
-                
-            } else if (thing.def.weaponTags != null && thing.def.weaponTags.Contains("Weazel_PowerWeapon"))
-            {
-                __result = false;
-                cantReason = "해당 장비가 필요합니다. 'Weazel_PowerArmor'";
+            ThingDef def = thing.def;
+            bool isWeazel = pawn.def.defName == "Weazel";
 
-                if (pawn.apparel?.WornApparel != null)
+            //2. 위젤 무기 체크
+            if (def.weaponTags != null)
+            {
+                // 위젤 전용 무기인데 위젤이 아니라면
+                if (def.weaponTags.Contains("WeazelWeapon") && !isWeazel)
                 {
-                    var worn = pawn.apparel.WornApparel;
-                    for (int i = 0; i < worn.Count; i++)
-                    {
-                        var app = worn[i].def?.apparel;
-                        if (app != null && app.tags != null)
-                        {
-                            if (app.tags.Contains("Weazel_PowerArmor"))
-                            {
-                                __result = true;
-                                cantReason = "";
-                                break;
-                            }
-                        }
-                    }
+                    __result = false;
+                    cantReason = "Weazel_CantEquip_WeazelOnly".Translate().Resolve();
+                    return;
+                }
+
+                // 파워 아머 전용 무기인데 파워 아머를 입지 않았다면
+                if (def.weaponTags.Contains("Weazel_PowerWeapon") && !WearsPowerArmor(pawn))
+                {
+                    __result = false;
+                    cantReason = "Weazel_CantEquip_NeedPowerArmor".Translate().Resolve();
+                    return;
                 }
             }
-            
-            if (thing.def.apparel != null && thing.def.apparel.tags.Contains("Weazel_Apparel") && pawn.def.defName != "Weazel")
+
+            //3. 위젤 전용 의류인데 위젤이 아니라면
+            if (def.apparel?.tags?.Contains("Weazel_Apparel") == true && !isWeazel)
             {
                 __result = false;
-                cantReason = "다음 종족만 착용 가능합니다. 'Weazel'";
-                return;
+                cantReason = "Weazel_CantEquip_WeazelOnly".Translate().Resolve();
             }
-            else
+        }
+
+        static bool WearsPowerArmor(Pawn pawn)
+        {
+            var worn = pawn.apparel?.WornApparel;
+            if (worn == null) return false;
+
+            for (int i = 0; i < worn.Count; i++)
             {
-                __result = true;
-                cantReason = "";
+                if (worn[i].def.apparel?.tags?.Contains("Weazel_PowerArmor") == true) return true;
             }
+            return false;
         }
     }
 

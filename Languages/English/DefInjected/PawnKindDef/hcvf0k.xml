@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Weazel_Merchant.label>Weazel Logistics Officer</Weazel_Merchant.label>
+  <Weazel_Warden.label>Weazel Warden</Weazel_Warden.label>
+  <Weazel_Caravan_Guard.label>Weazel Caravan Guard</Weazel_Caravan_Guard.label>
+  <Weazel_BodyGuard.label>Weazel Bodyguard</Weazel_BodyGuard.label>
+  <Weazel_Colonist.label>Weazel Colonist</Weazel_Colonist.label>
+  <Weazel_BulletSponge.label>Weazel Double Fang Bullet Sponge</Weazel_BulletSponge.label>
+  <Weazel_Recruit.label>Weazel Recruit</Weazel_Recruit.label>
+  <Weazel_Core_Infantry.label>Weazel Core Infantry</Weazel_Core_Infantry.label>
+  <Weazel_Guidon_Bearer.label>Weazel Guidon Bearer</Weazel_Guidon_Bearer.label>
+  <Weazel_Trooper.label>Weazel Grenadier</Weazel_Trooper.label>
+  <Weazel_Marksman.label>Weazel Marksman</Weazel_Marksman.label>
+  <Weazel_Heavy.label>Weazel Heavy Infantry</Weazel_Heavy.label>
+  <Weazel_Assault_Trooper.label>Weazel Assault Trooper</Weazel_Assault_Trooper.label>
+  <Weazel_Assalut_Guidon.label>Weazel Assault Guidon Bearer</Weazel_Assalut_Guidon.label>
+  <Weazel_Berserker.label>Weazel Berserker</Weazel_Berserker.label>
+  <Weazel_Veteran.label>Weazel Veteran</Weazel_Veteran.label>
+</LanguageData>

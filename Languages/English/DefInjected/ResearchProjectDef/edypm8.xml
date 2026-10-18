@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WeazelEssenceWeaver.label>Essence Processing</WeazelEssenceWeaver.label>
+  <WeazelEssenceWeaver.description>Unlocks foundational techniques for processing raw Essence. This research allows your colony to weave harvested Essence into usable Essence Silk.</WeazelEssenceWeaver.description>
+  <WeazelWeazelSlavesuit.label>Efficient Domestication</WeazelWeazelSlavesuit.label>
+  <WeazelWeazelSlavesuit.description>Unlocks the fabrication of specialized prisoner garments designed to periodically harvest Essence from captives.</WeazelWeazelSlavesuit.description>
+  <WeazelGAMIncubation.label>G.A.M. Incubation Theory</WeazelGAMIncubation.label>
+  <WeazelGAMIncubation.description>Unlocks the construction of a specialized incubator designed to cultivate G.A.M. artificial muscles utilizing Essence.</WeazelGAMIncubation.description>
+  <WeazelEssenceRefiner.label>Essence Refining Technology</WeazelEssenceRefiner.label>
+  <WeazelEssenceRefiner.description>Unlocks the construction of the Essence Refiner, a facility intended for purifying raw Essence. Currently, this building has no practical effect.</WeazelEssenceRefiner.description>
+  <WeazelPowerArmor.label>Artificial Muscle Fiber Replication</WeazelPowerArmor.label>
+  <WeazelPowerArmor.description>Unlocks the fabrication of advanced power armor integrated with G.A.M. artificial muscles.</WeazelPowerArmor.description>
+  <WeazelBioGenerator.label>Applied Artificial Biology</WeazelBioGenerator.label>
+  <WeazelBioGenerator.description>Unlocks the construction of the G.A.M. Bio-Generator, a facility that generates electrical power by utilizing G.A.M. artificial muscles.</WeazelBioGenerator.description>
+  <WeazelPowerWeapon.label>Weapon Upscaling</WeazelPowerWeapon.label>
+  <WeazelPowerWeapon.description>Unlocks the fabrication of massive heavy weapons. Due to their extreme weight and monstrous recoil, these weapons can only be wielded by units equipped with power armor.</WeazelPowerWeapon.description>
+</LanguageData>

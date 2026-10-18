@@ -8,3 +8,10 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\o
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.pdb
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.sourcelink.json
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.csproj.AssemblyReference.cache
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.AssemblyInfoInputs.cache
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.AssemblyInfo.cs
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.csproj.CoreCompileInputs.cache
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.dll
+C:\SteamLibrary\steamapps\common\RimWorld\Mods\Weazel\RimworldMod\obj\Debug\net48\RimworldMod.pdb

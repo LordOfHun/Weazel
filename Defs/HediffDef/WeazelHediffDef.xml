@@ -3,7 +3,7 @@
     <HediffDef>
         <defName>EssenceReplicating</defName>
         <label>추출당함</label>
-        <description>위젤들에게 에센스는 무엇보다 중요한 자원입니다. 따라서, 가능하면 무리하게 추출하기보다는 장기적으로, 더 많은 에센스를 얻기위해 포로를 살려두는 경우도 있습니다.\n에센스는 시간이 지나면 재생되며, 에센스가 충분히 재생되었다면 또다시 추출을 시행할 수 있습니다.\n하지만 급박한 상황일때, 에센스가 재생되지않은 포로로부터 무리하게 추출을 시도하는 경우도 존재합니다. 이런 경우 포로는 에센스의 무리한 추출로 인해 사망 또는 그에 준한 상태가 되어버립니다.</description>
+        <description>위젤들에게 에센스는 무엇보다 중요한 자원입니다. 따라서, 가능하면 무리하게 추출하기보다는 장기적으로, 더 많은 에센스를 얻기위해 포로를 살려두는 경우가 보통입니다.\n에센스는 시간이 지나면 재생되며, 에센스가 충분히 재생되었다면 또다시 추출을 시행할 수 있습니다.\n하지만 급박한 상황일때, 에센스가 재생되지않은 포로로부터 무리하게 추출을 시도하는 경우도 존재합니다. 이런 경우 포로는 에센스의 무리한 추출로 인해 사망 또는 그에 준한 상태가 되어버립니다.</description>
         <hediffClass>HediffWithComps</hediffClass>
         <everCurableByItem>false</everCurableByItem>
         <forceRemoveOnResurrection>true</forceRemoveOnResurrection>

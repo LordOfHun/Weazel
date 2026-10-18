@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EssenceReplicating.label>Essence Extracted</EssenceReplicating.label>
+  <EssenceReplicating.description>To Weazels, Essence is the most precious resource of all. Rather than extracting it recklessly, they usually keep their captives alive in order to harvest more Essence over the long term.\nEssence regenerates over time, and once it has sufficiently recovered, it can be extracted again.\nIn desperate times, however, some Weazels attempt to forcibly extract Essence from captives who have not yet regenerated. In such cases, the excessive extraction leaves the captive dead, or in a state not far from it.</EssenceReplicating.description>
+  <Weazel_Slavesuit.label>Essence Extraction</Weazel_Slavesuit.label>
+  <Weazel_Slavesuit.description>The subject is undergoing continuous Essence extraction, carefully regulated to avoid permanent physical damage. This grueling process yields an average of 15 Essence per day.</Weazel_Slavesuit.description>
+  <Weazel_BionicTail.label>Bionic Weazel Tail</Weazel_BionicTail.label>
+  <Weazel_BionicTail.labelNoun>a bionic Weazel tail</Weazel_BionicTail.labelNoun>
+  <Weazel_BionicTail.description>A Weazel tail whose artificial nature is impossible to spot at a glance. It corrects the user's gait, assisting their movement.</Weazel_BionicTail.description>
+  <Weazel_BladeTail.label>Weazel Blade Tail</Weazel_BladeTail.label>
+  <Weazel_BladeTail.labelNoun>a Weazel blade tail</Weazel_BladeTail.labelNoun>
+  <Weazel_BladeTail.description>The only thing better than an ordinary tail is a tail with a blade on it. Special, stylish, and quite handy for killing anyone who gets on your nerves.</Weazel_BladeTail.description>
+  <Weazel_BladeTail.comps.0.tools.0.label>blade</Weazel_BladeTail.comps.0.tools.0.label>
+  <WeazelColloidArm.label>Weazel Colloid Arm</WeazelColloidArm.label>
+  <WeazelColloidArm.labelNoun>a Weazel colloid arm</WeazelColloidArm.labelNoun>
+  <WeazelColloidArm.description>A gel-like fist formed through Weazel technology.</WeazelColloidArm.description>
+  <WeazelColloidArm.comps.0.tools.0.label>fist</WeazelColloidArm.comps.0.tools.0.label>
+  <EssenceHigh.label>Essence High</EssenceHigh.label>
+  <EssenceHigh.labelNoun>an Essence high</EssenceHigh.labelNoun>
+  <EssenceHigh.description>In a state of extreme stimulation and euphoria induced by refined Essence.</EssenceHigh.description>
+  <EssenceAddiction.label>Essence Addiction</EssenceAddiction.label>
+  <EssenceAddiction.description>Addicted to Essence. Once addicted, the user becomes entirely dependent on the substance in a relentless pursuit to recapture its intense euphoria.</EssenceAddiction.description>
+  <EssenceAddiction.stages.1.label>withdrawal</EssenceAddiction.stages.1.label>
+  <EssenceTolerance.label>Essence Tolerance</EssenceTolerance.label>
+  <EssenceTolerance.description>Repeated administration of Essence breeds familiarity with its euphoria, amplifying the sense of diminishing returns and worsening the drop-off.</EssenceTolerance.description>
+  <EssenceSmokeleafHigh.label>High on Essence Blow</EssenceSmokeleafHigh.label>
+  <EssenceSmokeleafHigh.labelNoun>an Essence Blow high</EssenceSmokeleafHigh.labelNoun>
+  <EssenceSmokeleafHigh.description>Essence carried in on the smoke is coursing through the veins. A strange euphoria and a sharp sense of focus set in.</EssenceSmokeleafHigh.description>
+  <EssenceSmokeleafTolerance.label>Essence Blow Tolerance</EssenceSmokeleafTolerance.label>
+  <EssenceSmokeleafTolerance.description>A built-up tolerance to Essence Blow. The higher the tolerance, the more Essence Blow is needed to achieve the same effect.</EssenceSmokeleafTolerance.description>
+  <EssenceSmokeleafAddiction.label>Essence Blow Dependence</EssenceSmokeleafAddiction.label>
+  <EssenceSmokeleafAddiction.description>Essence Blow is not very addictive, but it is still useful—and dangerous.</EssenceSmokeleafAddiction.description>
+  <EssenceSmokeleafAddiction.stages.1.label>withdrawal</EssenceSmokeleafAddiction.stages.1.label>
+  <EssenceReplicating.comps.0.messageOnDisappear>{PAWN_nameDef}'s Essence has fully regenerated and can be extracted again.</EssenceReplicating.comps.0.messageOnDisappear>
+</LanguageData>

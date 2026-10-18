@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_EssentialSilk.label>Weave Essence Silk</Make_EssentialSilk.label>
+  <Make_EssentialSilk.description>Weave Essence Silk from Essence.</Make_EssentialSilk.description>
+  <Make_EssentialSilk.jobString>Weaving Essence Silk.</Make_EssentialSilk.jobString>
+  <ExtractEssenceRecipe.label>Extract Essence</ExtractEssenceRecipe.label>
+  <ExtractEssenceRecipe.description>Extract Essence from the subject.</ExtractEssenceRecipe.description>
+  <ExtractEssenceRecipe.jobString>Extracting Essence.</ExtractEssenceRecipe.jobString>
+  <InstallWeazelBionicTail.label>Install Bionic Weazel Tail</InstallWeazelBionicTail.label>
+  <InstallWeazelBionicTail.description>Attach a bionic Weazel tail to the body.</InstallWeazelBionicTail.description>
+  <InstallWeazelBionicTail.jobString>Installing bionic Weazel tail.</InstallWeazelBionicTail.jobString>
+  <InstallWeazelBladeTail.label>Install Weazel Blade Tail</InstallWeazelBladeTail.label>
+  <InstallWeazelBladeTail.description>Attach a Weazel blade tail to the body.</InstallWeazelBladeTail.description>
+  <InstallWeazelBladeTail.jobString>Installing Weazel blade tail.</InstallWeazelBladeTail.jobString>
+  <InstallColloidArm.label>Install Weazel Colloid Arm</InstallColloidArm.label>
+  <InstallColloidArm.description>Attach a Weazel colloid arm to the body.</InstallColloidArm.description>
+  <InstallColloidArm.jobString>Installing Weazel colloid arm.</InstallColloidArm.jobString>
+</LanguageData>

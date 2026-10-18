@@ -51,7 +51,7 @@
             </li>
         </comps>
         <apparel>
-            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
             <tags>
                 <li>Weazel_Apparel</li>
                 <li>Weazel_Infantry</li>
@@ -225,7 +225,7 @@
     <!-- 위젤 바디슈트 A -->
     <ThingDef ParentName="Weazel_ApparelBase">
         <defName>Weazel_Bodysuit_A</defName>
-        <description>위젤이 범용적으로 착용하는 A타입 바디슈트입니다.</description>
+        <description>가장 기초적인 위젤의 군복입니다.\n\n모든 위젤은 바디 슈트와 같이 본인 몸에 꽉 맞는 의상을 선호합니다. 이는 위젤의 날렵함을 좀 더 살릴 수 있다는 장점 덕분입니다. 바디 슈트는 에센스 실크 소재로 만들어져 있기에 위젤의 규격 사이즈는 130cm 신장을 기준으로 프리 사이즈가 될 수 있으며 약간의 진공 저항력과 착용감 덕분에 경무장을 하든, 파워 아머를 착용하든 언제나 기초적으로 착용하는 의류입니다. 또한 바디슈트 자체적으로 어느정도 방어력을 기대할 수 있습니다.</description>
         <label>위젤 바디슈트 A</label>
         <recipeMaker>
             
@@ -262,11 +262,11 @@
                 <li>Legs</li>
             </bodyPartGroups>
             <wornGraphicPath>Weazellike/Apparel/WeazelBodysuitA</wornGraphicPath>
-            <drawData>
+			<!--<drawData>
                 <defaultData>
-                    <offset>(0,0.001,0.08)</offset>
+                    <offset>(0,0.001,0.08)</offset> 
                 </defaultData>
-            </drawData>
+            </drawData>-->
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -279,7 +279,7 @@
     <!-- 위젤 바디슈트 B -->
     <ThingDef ParentName="Weazel_ApparelBase">
         <defName>Weazel_Bodysuit_B</defName>
-        <description>위젤이 범용적으로 착용하는 B타입 바디슈트입니다.</description>
+        <description>가장 기초적인 위젤의 군복입니다.\n\n모든 위젤은 바디 슈트와 같이 본인 몸에 꽉 맞는 의상을 선호합니다. 이는 위젤의 날렵함을 좀 더 살릴 수 있다는 장점 덕분입니다. 바디 슈트는 에센스 실크 소재로 만들어져 있기에 위젤의 규격 사이즈는 130cm 신장을 기준으로 프리 사이즈가 될 수 있으며 약간의 진공 저항력과 착용감 덕분에 경무장을 하든, 파워 아머를 착용하든 언제나 기초적으로 착용하는 의류입니다. 또한 바디슈트 자체적으로 어느정도 방어력을 기대할 수 있습니다.</description>
         <label>위젤 바디슈트 B</label>
         <recipeMaker>
             
@@ -316,11 +316,11 @@
                 <li>Legs</li>
             </bodyPartGroups>
             <wornGraphicPath>Weazellike/Apparel/WeazelBodysuitB</wornGraphicPath>
-            <drawData>
-                <defaultData>
-                    <offset>(0,0.001,0.08)</offset>
+            <!--<drawData>
+               <defaultData>
+                    <offset>(0,0.001,0.08)</offset> 
                 </defaultData>
-            </drawData>
+            </drawData>-->
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -370,11 +370,11 @@
                 <li>Legs</li>
             </bodyPartGroups>
             <wornGraphicPath>Weazellike/Apparel/WeazelBodysuitO</wornGraphicPath>
-            <drawData>
-                <defaultData>
+            <!--<drawData>
+              <defaultData>
                     <offset>(0,0.001,0.08)</offset>
                 </defaultData>
-            </drawData>
+            </drawData>-->
             <layers>
                 <li>OnSkin</li>
             </layers>
@@ -397,7 +397,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <costList>
-            <Weazel_EssentialSilk>1</Weazel_EssentialSilk>
+            <Weazel_EssentialSilk>70</Weazel_EssentialSilk>
         </costList>
         <statBases>
             <MarketValue>475</MarketValue>
@@ -445,7 +445,7 @@
     <!--위젤 방탄조끼-->
     <ThingDef ParentName="Weazel_MachiningApparelBase">
         <defName>Weazel_WeazelFlakvest</defName>
-        <description>가슴을 방어할 수 있는 설계로 제작된 방탄조끼입니다. 120cm정도의 작은 체구인 위젤들은 이정도 면적의 방어구만으로도 충분하다고 생각합니다. 교전하는 대부분의 적이 자신보다 크고, 파워 아머가 아니라면 기동성이야말로 생존력을 올려준다고 믿습니다.</description>
+        <description>가슴을 방어할 수 있는 설계로 제작된 방탄조끼입니다. 130cm정도의 작은 체구인 위젤들은 이정도 면적의 방어구만으로도 충분하다고 생각합니다. 교전하는 대부분의 적이 자신보다 크고, 파워 아머가 아니라면 기동성이야말로 생존력을 올려준다고 믿습니다.</description>
         <label>위젤 방탄조끼</label>
         <recipeMaker>
             

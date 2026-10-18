@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Weazel.label>Weazel</Weazel.label>
+  <Weazel.corePart.parts.4.customLabel>tail</Weazel.corePart.parts.4.customLabel>
+  <Weazel.corePart.parts.7.customLabel>left lung</Weazel.corePart.parts.7.customLabel>
+  <Weazel.corePart.parts.8.customLabel>right lung</Weazel.corePart.parts.8.customLabel>
+  <Weazel.corePart.parts.9.customLabel>left kidney</Weazel.corePart.parts.9.customLabel>
+  <Weazel.corePart.parts.10.customLabel>right kidney</Weazel.corePart.parts.10.customLabel>
+  <Weazel.corePart.parts.13.customLabel>left shoulder</Weazel.corePart.parts.13.customLabel>
+  <Weazel.corePart.parts.14.customLabel>right shoulder</Weazel.corePart.parts.14.customLabel>
+  <Weazel.corePart.parts.16.customLabel>left leg</Weazel.corePart.parts.16.customLabel>
+  <Weazel.corePart.parts.17.customLabel>right leg</Weazel.corePart.parts.17.customLabel>
+  <Weazel.corePart.parts.13.parts.0.customLabel>left clavicle</Weazel.corePart.parts.13.parts.0.customLabel>
+  <Weazel.corePart.parts.13.parts.1.customLabel>left arm</Weazel.corePart.parts.13.parts.1.customLabel>
+  <Weazel.corePart.parts.14.parts.0.customLabel>right clavicle</Weazel.corePart.parts.14.parts.0.customLabel>
+  <Weazel.corePart.parts.14.parts.1.customLabel>right arm</Weazel.corePart.parts.14.parts.1.customLabel>
+  <Weazel.corePart.parts.16.parts.0.customLabel>left femur</Weazel.corePart.parts.16.parts.0.customLabel>
+  <Weazel.corePart.parts.16.parts.1.customLabel>left tibia</Weazel.corePart.parts.16.parts.1.customLabel>
+  <Weazel.corePart.parts.16.parts.2.customLabel>left foot</Weazel.corePart.parts.16.parts.2.customLabel>
+  <Weazel.corePart.parts.17.parts.0.customLabel>right femur</Weazel.corePart.parts.17.parts.0.customLabel>
+  <Weazel.corePart.parts.17.parts.1.customLabel>right tibia</Weazel.corePart.parts.17.parts.1.customLabel>
+  <Weazel.corePart.parts.17.parts.2.customLabel>right foot</Weazel.corePart.parts.17.parts.2.customLabel>
+  <Weazel.corePart.parts.12.parts.0.parts.1.customLabel>left eye</Weazel.corePart.parts.12.parts.0.parts.1.customLabel>
+  <Weazel.corePart.parts.12.parts.0.parts.2.customLabel>right eye</Weazel.corePart.parts.12.parts.0.parts.2.customLabel>
+  <Weazel.corePart.parts.12.parts.0.parts.3.customLabel>left ear</Weazel.corePart.parts.12.parts.0.parts.3.customLabel>
+  <Weazel.corePart.parts.12.parts.0.parts.4.customLabel>right ear</Weazel.corePart.parts.12.parts.0.parts.4.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.0.customLabel>left humerus</Weazel.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.1.customLabel>left radius</Weazel.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.2.customLabel>left hand</Weazel.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.0.customLabel>right humerus</Weazel.corePart.parts.14.parts.1.parts.0.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.1.customLabel>right radius</Weazel.corePart.parts.14.parts.1.parts.1.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.2.customLabel>right hand</Weazel.corePart.parts.14.parts.1.parts.2.customLabel>
+  <Weazel.corePart.parts.16.parts.2.parts.0.customLabel>left little toe</Weazel.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Weazel.corePart.parts.16.parts.2.parts.1.customLabel>left fourth toe</Weazel.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Weazel.corePart.parts.16.parts.2.parts.2.customLabel>left middle toe</Weazel.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Weazel.corePart.parts.16.parts.2.parts.3.customLabel>left second toe</Weazel.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Weazel.corePart.parts.16.parts.2.parts.4.customLabel>left big toe</Weazel.corePart.parts.16.parts.2.parts.4.customLabel>
+  <Weazel.corePart.parts.17.parts.2.parts.0.customLabel>right little toe</Weazel.corePart.parts.17.parts.2.parts.0.customLabel>
+  <Weazel.corePart.parts.17.parts.2.parts.1.customLabel>right fourth toe</Weazel.corePart.parts.17.parts.2.parts.1.customLabel>
+  <Weazel.corePart.parts.17.parts.2.parts.2.customLabel>right middle toe</Weazel.corePart.parts.17.parts.2.parts.2.customLabel>
+  <Weazel.corePart.parts.17.parts.2.parts.3.customLabel>right second toe</Weazel.corePart.parts.17.parts.2.parts.3.customLabel>
+  <Weazel.corePart.parts.17.parts.2.parts.4.customLabel>right big toe</Weazel.corePart.parts.17.parts.2.parts.4.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>left pinky</Weazel.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>left ring finger</Weazel.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>left middle finger</Weazel.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>left index finger</Weazel.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Weazel.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>left thumb</Weazel.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>right pinky</Weazel.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>right ring finger</Weazel.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>right middle finger</Weazel.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>right index finger</Weazel.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <Weazel.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>right thumb</Weazel.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+</LanguageData>

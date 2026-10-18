@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Weazel_MassCarryCapacity.label>Additional Carry Capacity</Weazel_MassCarryCapacity.label>
+  <Weazel_MassCarryCapacity.description>The additional weight (kg) that can be carried by wearing this equipment.</Weazel_MassCarryCapacity.description>
+  <Weazel_MassCarryCapacity.formatString>{0} kg</Weazel_MassCarryCapacity.formatString>
+</LanguageData>

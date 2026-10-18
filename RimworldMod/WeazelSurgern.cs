@@ -25,7 +25,7 @@ namespace AddWeazelSurgern
             if (billDoer == null || billDoer.def.defName != "Weazel")
             {
                 // 의사가 위즐이 아니면 수술 중단 및 메시지 출력
-                Messages.Message("이 수술은 위젤 종족만 수행할 수 있습니다.", MessageTypeDefOf.RejectInput);
+                Messages.Message("Weazel_Surgery_WeazelOnly".Translate().Resolve(), MessageTypeDefOf.RejectInput);
                 
                 // 수술 재료를 돌려주고 수술 중단 (실패 처리와 비슷함)
                 return;
@@ -34,7 +34,7 @@ namespace AddWeazelSurgern
             // 1. 대상 검증 (포로 또는 노예만 가능)
             if (!pawn.IsPrisoner && !pawn.IsSlave)
             {
-                Messages.Message("대상자가 포로나 노예가 아니거나, 종족이 위젤입니다.", MessageTypeDefOf.RejectInput);
+                Messages.Message("Weazel_Surgery_InvalidTarget".Translate().Resolve(), MessageTypeDefOf.RejectInput);
                 return;
             }
 

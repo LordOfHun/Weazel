@@ -3,7 +3,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>WeazelEssenceRefiner</defName>
         <label>위젤 에센스 정제기</label>
-        <description>위젤 에센스 정제기</description>
+        <description>위젤 에센스 정제기입니다. 아직까진 아무 기능이 없습니다.\n\n에센스를 특수한 방법으로 정제합니다. 위젤 공학은 에센스를 기초로 발달해왔고 이 에센스를 정제하여 정교한 의류와 약물 등 다양한 수단에 이용됩니다. 이런 정제된 에센스는 위젤 사회에서 좀 더 높은 계급의 위젤들을 위해 사용됩니다.</description>
         <researchPrerequisites><li>WeazelEssenceRefiner</li></researchPrerequisites>
         <graphicData>
             <texPath>Things/Building/Essence_Refiner/Essence_Refiner</texPath>

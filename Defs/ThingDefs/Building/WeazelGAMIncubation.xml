@@ -3,7 +3,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>WeazelGAMIncubation</defName>
         <label>G.A.M 배양기</label>
-        <description>에센스를 소모하여 인공근육을 제작가능한 구조물입니다.</description>
+        <description>에센스를 이용해 인공근육인 G.A.M을 배양하는 배양기입니다. 에센스만 주기적으로 주입한다면 자동으로 G.A.M을 생산합니다.\n\n마치 생물인 것 마냥 에센스에 반응해 맥박하는 인공 근육 덩어리를 배양하는 배양기입니다. G.A.M이 배양되는 동안은 촉수처럼 꿈틀거리며 배양조 안 영양액 속에 뭉쳐있습니다. 아랫 공간을 통해 에센스가 주입하면 G.A.M이 반응하며 그것을 흡수하고 성장합니다. 이것의 정체가 무엇인지 정확히 아는 위젤은 많지않습니다. 대부분의 위젤은 G.A.M을 배양할 수 있는 유기 물질을 보급받으며, 이것을 배양하고 양산하는 방식만을 알고있습니다.</description>
         <researchPrerequisites><li>WeazelGAMIncubation</li></researchPrerequisites>
         <graphicData>
             <texPath>Things/Building/GAM_Incubation/GAM_Incubation</texPath>

@@ -3,7 +3,7 @@
     <ThingDef ParentName="BuildingBase">
         <defName>WeazelBioGenerator</defName>
         <label>위젤 생체 발전기</label>
-        <description>인공 근육을 소모하여 전기를 발생시킵니다.</description>
+        <description>G.A.M의 생체 발열을 응용하여 전력을 생산하는 발전기입니다. 전력을 생산하는데 G.A.M을 요구합니다.\n\n G.A.M은 위젤 사회에서 널리 사용되는 물질입니다. 특히, 이런 전력 생산 시설에도 사용되곤 합니다. G.A.M을 가학적으로 자극하면 발열과 약간의 전력을 생산한다는 원리를 발견한지 얼마되지않아, 위젤 대부분의 약탈 기지에는 화학 연료 대신 G.A.M을 이용한 전력 확보가 활발하게 사용되고 있습니다. 애초에 위젤이 약탈을 위한 기지를 만든다는 것은 에센스를 추출한다는 의미이며, 에센스만 있다면 G.A.M 배양은 아주 빠르기 때문에 자체적으로 전력을 확보할 수 있다는 큰 장점을 가지고 있습니다.</description>
         <researchPrerequisites><li>WeazelBioGenerator</li></researchPrerequisites>
         <thingClass>Building</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>

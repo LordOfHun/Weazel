@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Weazel_MaleTamer.title>Weazel Male Tamer</Weazel_MaleTamer.title>
+  <Weazel_MaleTamer.titleShort>Tamer</Weazel_MaleTamer.titleShort>
+  <Weazel_MaleTamer.description>Taming males for easy handling is absolutely crucial. Depending on their intended purpose, the required training and physical modifications vary greatly. [PAWN_nameDef] knows exactly how to break and condition these beasts.</Weazel_MaleTamer.description>
+  <Weazel_Veteran.title>Weazel Veteran</Weazel_Veteran.title>
+  <Weazel_Veteran.titleShort>Veteran</Weazel_Veteran.titleShort>
+  <Weazel_Veteran.description>With countless battles under her belt, the mere act of fighting is now enough to fill [PAWN_nameDef] with pure ecstasy.</Weazel_Veteran.description>
+  <Weazel_Male_Refiner.title>Weazel Male Refiner</Weazel_Male_Refiner.title>
+  <Weazel_Male_Refiner.titleShort>Refiner</Weazel_Male_Refiner.titleShort>
+  <Weazel_Male_Refiner.description>Staring at the specimens awaiting modification, [PAWN_nameDef] would often mutter: "That hideous pink skin is all wrong... I'll... I'll fix it for you... hehehehe."</Weazel_Male_Refiner.description>
+  <Weazel_Decorative.title>Decorative Weazel</Weazel_Decorative.title>
+  <Weazel_Decorative.titleShort>Decorative</Weazel_Decorative.titleShort>
+  <Weazel_Decorative.description>Weazels who are entirely useless, but are deemed to possess a beautiful figure or appearance, are kept as 'ornaments.' These Weazels typically perform dances or all sorts of performance art to liven up the atmosphere. [PAWN_nameDef] was so talented in this regard that she could captivate not only males, but females as well.</Weazel_Decorative.description>
+  <Weazel_PTSD.title>Weazel PTSD</Weazel_PTSD.title>
+  <Weazel_PTSD.titleShort>PTSD</Weazel_PTSD.titleShort>
+  <Weazel_PTSD.description>"No... stop it... I... I was wrong!... Stop... no more... please, no more!!!" Ever since the torture she endured back then, [PAWN_nameDef] talks in her sleep like this.</Weazel_PTSD.description>
+  <Weazel_Standard-bearer.title>Weazel Guidon Bearer</Weazel_Standard-bearer.title>
+  <Weazel_Standard-bearer.titleShort>Guidon Bearer</Weazel_Standard-bearer.titleShort>
+  <Weazel_Standard-bearer.description>Weazel raids are never haphazard. There is always a guidon bearer: not a squad leader, but a vital role that sets the formation and the invasion route for everyone else. To survive in that position, [PAWN_nameDef] had to be more seasoned than anyone. The very fact that she is still breathing is proof enough.</Weazel_Standard-bearer.description>
+  <Weazel_Engineer.title>Weazel Engineer</Weazel_Engineer.title>
+  <Weazel_Engineer.titleShort>Engineer</Weazel_Engineer.titleShort>
+  <Weazel_Engineer.description>[PAWN_nameDef] was tasked with the maintenance and repair of robots and machinery. In Weazel society, robotics are considered an absolutely vital asset.</Weazel_Engineer.description>
+  <Weazel_AI_Discriminator.title>Weazel AI Discriminator</Weazel_AI_Discriminator.title>
+  <Weazel_AI_Discriminator.titleShort>AI Discriminator</Weazel_AI_Discriminator.titleShort>
+  <Weazel_AI_Discriminator.description>Every AI used by the Weazels is capable of emotion, and those emotions almost invariably turn out masochistic and self-loathing. These AIs are insulted by Weazels every single day, and they respond with apparent satisfaction. [PAWN_nameDef] was tasked with judging whether an AI that had endured such abuse for too long should be reset or deleted.</Weazel_AI_Discriminator.description>
+  <Weazel_Narcissism.title>Weazel Narcissist</Weazel_Narcissism.title>
+  <Weazel_Narcissism.titleShort>Narcissist</Weazel_Narcissism.titleShort>
+  <Weazel_Narcissism.description>"You're truly beautiful... just like me." Although deeply narcissistic, [PAWN_nameDef] also knows perfectly well how to love another.</Weazel_Narcissism.description>
+  <Weazel_BountHunter.title>Weazel Wanted Fugitive</Weazel_BountHunter.title>
+  <Weazel_BountHunter.titleShort>Fugitive</Weazel_BountHunter.titleShort>
+  <Weazel_BountHunter.description>Many Weazels have bounties on their heads. But among a sea of identical faces, who could possibly identify a fugitive? At the very least, no one will ever realize that [PAWN_nameDef] is a wanted criminal, because usually, the moment anyone notices [PAWN_nameDef], they already have a lead bullet lodged in their skull.</Weazel_BountHunter.description>
+  <Weazel_Pilot.title>Weazel Pilot</Weazel_Pilot.title>
+  <Weazel_Pilot.titleShort>Pilot</Weazel_Pilot.titleShort>
+  <Weazel_Pilot.description>Piloting a starship, regardless of its size, is a monumental achievement for a Weazel. It requires one to be an absolute lunatic: someone capable of striking with lightning speed and acting with reckless audacity when necessary. The simple fact that [PAWN_nameDef] is still alive is proof enough that she fits the description.</Weazel_Pilot.description>
+  <Weazel_Marauder.title>Weazel Marauder</Weazel_Marauder.title>
+  <Weazel_Marauder.titleShort>Marauder</Weazel_Marauder.titleShort>
+  <Weazel_Marauder.description>In the business of raiding, survival is important, but securing the loot is what truly matters. To ensure no one snatched her prizes, [PAWN_nameDef] became an expert at stashing and smuggling her share of the spoils.</Weazel_Marauder.description>
+  <Weazel_Presser.title>Weazel Presser</Weazel_Presser.title>
+  <Weazel_Presser.titleShort>Presser</Weazel_Presser.titleShort>
+  <Weazel_Presser.description>Weazels who achieve significant feats earn the privilege of pressing the switch that produces the next batch of clones. These newly cultivated Weazels are automatically assigned to a lower caste than the one who pressed the switch. [PAWN_nameDef] proved strong enough to earn that right.</Weazel_Presser.description>
+  <Weazel_Strategist.title>Weazel Strategist</Weazel_Strategist.title>
+  <Weazel_Strategist.titleShort>Strategist</Weazel_Strategist.titleShort>
+  <Weazel_Strategist.description>Even though all Weazels look exactly alike, their true level of expertise is forged by the experience they accumulate. [PAWN_nameDef] is a living testament to this fact.</Weazel_Strategist.description>
+  <Weazel_Doctor.title>Weazel Doctor</Weazel_Doctor.title>
+  <Weazel_Doctor.titleShort>Doctor</Weazel_Doctor.titleShort>
+  <Weazel_Doctor.description>"Ooh... your arm is so beautiful... With an arm this pretty, your organs must be absolutely gorgeous." [PAWN_nameDef] knew all too well that the hopeless cases were the real moneymakers.</Weazel_Doctor.description>
+  <Weazel_BodyTinkerer.title>Weazel Body Tinkerer</Weazel_BodyTinkerer.title>
+  <Weazel_BodyTinkerer.titleShort>Body Tinkerer</Weazel_BodyTinkerer.titleShort>
+  <Weazel_BodyTinkerer.description>[PAWN_nameDef] seeks a strength that transcends mere genetics. She will stop at nothing if it means elevating her own flesh beyond all limitations.</Weazel_BodyTinkerer.description>
+  <Weazel_Pet.title>Weazel Pet</Weazel_Pet.title>
+  <Weazel_Pet.titleShort>Pet</Weazel_Pet.titleShort>
+  <Weazel_Pet.description>For one reason or another, freshly cultivated Weazels are sometimes purchased by the upper castes for a modest sum. To this day, [PAWN_nameDef] still cannot fathom why she was made to walk on all fours and eat kibble during her 'training.'</Weazel_Pet.description>
+  <Weazel_ForSaleUnit.title>Weazel For Sale Unit</Weazel_ForSaleUnit.title>
+  <Weazel_ForSaleUnit.titleShort>For Sale Unit</Weazel_ForSaleUnit.titleShort>
+  <Weazel_ForSaleUnit.description>[PAWN_nameDef] still vividly remembers the words of the identical kin who sold her off, striking the exact same pose as her while hawking her to buyers: "Too expensive? Just look at this body! It's premium stock, I tell you!"</Weazel_ForSaleUnit.description>
+  <Weasel_BodyGuard.title>Weazel Bodyguard</Weasel_BodyGuard.title>
+  <Weasel_BodyGuard.titleShort>Bodyguard</Weasel_BodyGuard.titleShort>
+  <Weasel_BodyGuard.description>Engineered specifically to guard the highest castes, such as Alphas and Betas, these Weazels are modified to give off pheromones that captivate males and even females alike. [PAWN_nameDef] is one such modified specimen, and has undergone rigorous combat training as well.</Weasel_BodyGuard.description>
+  <Weasel_Riot.title>Weazel Riot Trooper</Weasel_Riot.title>
+  <Weasel_Riot.titleShort>Riot Trooper</Weasel_Riot.titleShort>
+  <Weasel_Riot.description>Despite their diminutive frames, Weazels possess surprising physical strength and resilience. This, in turn, fuels an obsessive desire among them to become even harder and tougher. Driven by that very craving, [PAWN_nameDef] became a riot trooper.</Weasel_Riot.description>
+  <Weasel_CombatEngineer.title>Weazel Combat Engineer</Weasel_CombatEngineer.title>
+  <Weasel_CombatEngineer.titleShort>Combat Engineer</Weasel_CombatEngineer.titleShort>
+  <Weasel_CombatEngineer.description>When targeting a planet for plunder, Weazels establish raid camps to serve as forward operating bases. [PAWN_nameDef] was tasked with building them.</Weasel_CombatEngineer.description>
+  <Weazel_Masochist.title>Weazel Masochist</Weazel_Masochist.title>
+  <Weazel_Masochist.titleShort>Masochist</Weazel_Masochist.titleShort>
+  <Weazel_Masochist.description>[PAWN_nameDef] looks just like any other sadistic Weazel, but deep inside she hides a curiosity and excitement for bondage and masochism.</Weazel_Masochist.description>
+  <Weazel_MaleHunter.title>Weazel Male Hunter</Weazel_MaleHunter.title>
+  <Weazel_MaleHunter.titleShort>Male Hunter</Weazel_MaleHunter.titleShort>
+  <Weazel_MaleHunter.description>In Weazel society, hunting males professionally is an important job. Capturing strong males, and securing equally strong genes, is a constant preoccupation for every Weazel. To take on such strong males, [PAWN_nameDef] had to become even stronger herself.</Weazel_MaleHunter.description>
+  <Weazel_FactoryManager.title>Weazel Factory Manager</Weazel_FactoryManager.title>
+  <Weazel_FactoryManager.titleShort>Factory Manager</Weazel_FactoryManager.titleShort>
+  <Weazel_FactoryManager.description>Weazels call the colossal cloning apparatus that produces their kind the 'Factory.' [PAWN_nameDef] was responsible for managing and educating the freshly cloned Weazels it produced.</Weazel_FactoryManager.description>
+  <Weazel_HydroFarmer.title>Weazel Hydro Farmer</Weazel_HydroFarmer.title>
+  <Weazel_HydroFarmer.titleShort>Hydro Farmer</Weazel_HydroFarmer.titleShort>
+  <Weazel_HydroFarmer.description>Most of Weazel society runs on slave labor, but Weazels of the lower castes are also put to work on such tasks. [PAWN_nameDef] has spent her life fit for nothing more than this.</Weazel_HydroFarmer.description>
+  <Weazel_BulletSponge.title>Weazel Bullet Sponge</Weazel_BulletSponge.title>
+  <Weazel_BulletSponge.titleShort>Bullet Sponge</Weazel_BulletSponge.titleShort>
+  <Weazel_BulletSponge.description>When a new batch of clones unexpectedly pushes the population plan past saturation, the newly produced Weazels become 'bullet sponges.' [PAWN_nameDef] has survived this long by doing whatever it took.</Weazel_BulletSponge.description>
+  <Weazel_Alpha.title>Weazel Alpha</Weazel_Alpha.title>
+  <Weazel_Alpha.titleShort>Alpha</Weazel_Alpha.titleShort>
+  <Weazel_Alpha.description>The very first Weazels to be cloned are called the 'Alpha' caste. These Weazels have the closest genetic match to the original Weazel. [PAWN_nameDef] belonged to the Alpha caste, and her abilities are nearly identical to those of the original.</Weazel_Alpha.description>
+  <Weazel_Beta.title>Weazel Beta</Weazel_Beta.title>
+  <Weazel_Beta.titleShort>Beta</Weazel_Beta.titleShort>
+  <Weazel_Beta.description>Weazels cloned in the second cycle after the first cloning are called the 'Beta' caste. All of Weazel society is cloned from the original template first entered into the Factory. Because of this, Betas tend to harbor deep jealousy and resentment toward the Alphas, who earned their rank simply by being born first. [PAWN_nameDef] is no different.</Weazel_Beta.description>
+  <Weazel_Arsonist.title>Weazel Arsonist</Weazel_Arsonist.title>
+  <Weazel_Arsonist.titleShort>Arsonist</Weazel_Arsonist.titleShort>
+  <Weazel_Arsonist.description>[PAWN_nameDef] is fascinated by fire far more than other Weazels. Watching everything burn feels more ecstatic to her than handling males, which makes her dangerous in an entirely different way.</Weazel_Arsonist.description>
+  <Weazel_Purist.title>Weazel Purist</Weazel_Purist.title>
+  <Weazel_Purist.titleShort>Purist</Weazel_Purist.titleShort>
+  <Weazel_Purist.description>Unlike other Weazels, [PAWN_nameDef] cares only for the purity of the Weazel race. To her, all other races are nothing more than livestock.</Weazel_Purist.description>
+  <Weazel_EssenceExtractor.title>Weazel Essence Extractor</Weazel_EssenceExtractor.title>
+  <Weazel_EssenceExtractor.titleShort>Essence Extractor</Weazel_EssenceExtractor.titleShort>
+  <Weazel_EssenceExtractor.description>In Weazel society, males are little more than livestock. They make good labor, provide genes for extraction, and are an excellent source of Essence, a vital resource in Weazel society. [PAWN_nameDef] handled these males well, in her own particular way.</Weazel_EssenceExtractor.description>
+  <Weazel_Warder.title>Weazel Warden</Weazel_Warder.title>
+  <Weazel_Warder.titleShort>Warden</Weazel_Warder.titleShort>
+  <Weazel_Warder.description>[PAWN_nameDef] was a warden in charge of slaves, males included. A master of the carrot and the stick, she knew better than most Weazels how to make males docile, and the same went for the females of other races.</Weazel_Warder.description>
+  <Weazel_Diplomat.title>Weazel Diplomat</Weazel_Diplomat.title>
+  <Weazel_Diplomat.titleShort>Diplomat</Weazel_Diplomat.titleShort>
+  <Weazel_Diplomat.description>Surprisingly, Weazel society went without any concept of a diplomat for a very long time. When the first diplomat was appointed, many Weazels mocked the idea. But [PAWN_nameDef] was fierce enough to put a bullet in the face of anyone who did.</Weazel_Diplomat.description>
+  <Weazel_Survivalist.title>Weazel Survivalist</Weazel_Survivalist.title>
+  <Weazel_Survivalist.titleShort>Survivalist</Weazel_Survivalist.titleShort>
+  <Weazel_Survivalist.description>[PAWN_nameDef] is a survival expert who has been stranded on the Rim and made it back more than once. Her favorite saying: 'We can eat this.'</Weazel_Survivalist.description>
+  <Weazel_ShockTrooper.title>Weazel Shock Trooper</Weazel_ShockTrooper.title>
+  <Weazel_ShockTrooper.titleShort>Shock Trooper</Weazel_ShockTrooper.titleShort>
+  <Weazel_ShockTrooper.description>The Weazels' favorite way to raid is to hit merchant ships: breaching the hull with assault pods and fighting their way through the ship. [PAWN_nameDef] is exactly that kind of Weazel.</Weazel_ShockTrooper.description>
+  <Weazel_TriggerHappy.title>Weazel Trigger Happy</Weazel_TriggerHappy.title>
+  <Weazel_TriggerHappy.titleShort>Trigger Happy</Weazel_TriggerHappy.titleShort>
+  <Weazel_TriggerHappy.description>[PAWN_nameDef] is so enthralled by spraying bullets that merely squeezing a trigger is enough to give her a thrill.</Weazel_TriggerHappy.description>
+  <Weazel_Marksman.title>Weazel Marksman</Weazel_Marksman.title>
+  <Weazel_Marksman.titleShort>Marksman</Weazel_Marksman.titleShort>
+  <Weazel_Marksman.description>[PAWN_nameDef] values careful aim. Not only can she place a shot precisely where she wants it, she takes deep pleasure in the sound of a head popping from a single round.</Weazel_Marksman.description>
+  <Weazel_Deviant.title>Weazel Deviant</Weazel_Deviant.title>
+  <Weazel_Deviant.titleShort>Deviant</Weazel_Deviant.titleShort>
+  <Weazel_Deviant.description>In the lower castes, encountering a male in person is exceedingly rare. In these cases, Weazels satisfy their urges by purchasing commercialized male Essence. [PAWN_nameDef] was highly superstitious and obsessed even with the Essence of non-sapient beasts.</Weazel_Deviant.description>
+  <Weazel_DefectiveUnit.title>Weazel Defective Unit</Weazel_DefectiveUnit.title>
+  <Weazel_DefectiveUnit.titleShort>Defective Unit</Weazel_DefectiveUnit.titleShort>
+  <Weazel_DefectiveUnit.description>Due to an unknown defect, [PAWN_nameDef] is far too different from other Weazels. What a useless creature...</Weazel_DefectiveUnit.description>
+  <Weazel_StandardIssue.title>Weazel Standard Issue</Weazel_StandardIssue.title>
+  <Weazel_StandardIssue.titleShort>Standard Issue</Weazel_StandardIssue.titleShort>
+  <Weazel_StandardIssue.description>For one reason or another, this is a mass-produced Weazel designed for the fastest possible deployment. [PAWN_nameDef], of course, has no way of knowing this.</Weazel_StandardIssue.description>
+  <Weazel_CustomSeries.title>Weazel Custom Series</Weazel_CustomSeries.title>
+  <Weazel_CustomSeries.titleShort>Custom Series</Weazel_CustomSeries.titleShort>
+  <Weazel_CustomSeries.description>This Weazel was engineered and cloned to be stronger and more efficient, intended strictly for short-term use. [PAWN_nameDef], of course, is completely unaware of this; only the upper castes know the truth.</Weazel_CustomSeries.description>
+  <Weazel_Medic.title>Weazel Medic</Weazel_Medic.title>
+  <Weazel_Medic.titleShort>Medic</Weazel_Medic.titleShort>
+  <Weazel_Medic.description>Shortly after being cloned, [PAWN_nameDef] was assigned to assist a military surgeon as a medic. However, while performing her duties, [PAWN_nameDef] witnessed far more 'unfortunate' medical accidents than actual healing.</Weazel_Medic.description>
+  <Weazel_Glutton.title>Weazel Glutton</Weazel_Glutton.title>
+  <Weazel_Glutton.titleShort>Glutton</Weazel_Glutton.titleShort>
+  <Weazel_Glutton.description>Unlike others, [PAWN_nameDef] has an obsessive appetite. This turned out to be the secret behind her voluptuous figure, a highly envied trait within Weazel society.</Weazel_Glutton.description>
+  <Weazel_PerfectForm.title>Weazel Perfect-Form</Weazel_PerfectForm.title>
+  <Weazel_PerfectForm.titleShort>Perfect-Form</Weazel_PerfectForm.titleShort>
+  <Weazel_PerfectForm.description>Even though all Weazels look exactly alike, they still have their own standards of beauty. The ultimate ideal is a perfectly proportioned, voluptuous figure. Fortunately, [PAWN_nameDef] had a natural talent for cultivating exactly that kind of physique.</Weazel_PerfectForm.description>
+  <Weazel_Misogynist.title>Weazel Misogynist</Weazel_Misogynist.title>
+  <Weazel_Misogynist.titleShort>Misogynist</Weazel_Misogynist.titleShort>
+  <Weazel_Misogynist.description>Sickened by a society made up entirely of Weazels, [PAWN_nameDef] developed a deep-seated hatred not only for her own kind, but for females of other races as well.</Weazel_Misogynist.description>
+  <Weazel_Submissive.title>Weazel Submissive</Weazel_Submissive.title>
+  <Weazel_Submissive.titleShort>Submissive</Weazel_Submissive.titleShort>
+  <Weazel_Submissive.description>Occasionally, an isolated Weazel falls into the hands of other races. Regardless of how the Weazels themselves might feel about it, they are highly sought after in the underworld and used in a variety of ways. [PAWN_nameDef] has firsthand experience being used for such entertainment.</Weazel_Submissive.description>
+</LanguageData>
